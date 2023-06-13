@@ -33,30 +33,10 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    msg = event.message.text
-    if(msg == 'temp1'):
-        line_bot_api.reply_message(
-            event.reply_token,
-            FlexSendMessage(
-                alt_text = '測試',
-                contents = json.load(open('temp1.json', 'r', encoding='utf-8'))
-            )
-        )
-    elif(msg == 'temp2'):
-        line_bot_api.reply_message(
-            event.reply_token,
-            FlexSendMessage(
-                alt_text = '測試',
-                contents = json.load(open('temp2.json', 'r', encoding='utf-8'))
-            )
-        )
-
-    else:
-        # return line_bot_api.replyMessage(event.replyToken,json.load(open('temp2.json', 'r', encoding='utf-8')))
-        line_bot_api.reply_message(
+    line_bot_api.reply_message(
                     event.reply_token,
                     TextSendMessage(
-                        text='a quick reply message',
+                        text='請問你有哪方面的問題？',
                         quick_reply=QuickReply(
                             items=[
                                 QuickReplyButton(
@@ -81,6 +61,28 @@ def handle_message(event):
                                                                 mode ="date")
                                 )
                             ])))
+    
+    msg = event.message.text
+    if(msg == 'temp1'):
+        line_bot_api.reply_message(
+            event.reply_token,
+            FlexSendMessage(
+                alt_text = '測試',
+                contents = json.load(open('temp1.json', 'r', encoding='utf-8'))
+            )
+        )
+    elif(msg == 'temp2'):
+        line_bot_api.reply_message(
+            event.reply_token,
+            FlexSendMessage(
+                alt_text = '測試',
+                contents = json.load(open('temp2.json', 'r', encoding='utf-8'))
+            )
+        )
+
+    # else:
+        # return line_bot_api.replyMessage(event.replyToken,json.load(open('temp2.json', 'r', encoding='utf-8')))
+        
         # get_message = event.message.text
         # # Send To Line
         # reply = TextSendMessage(text=f"{get_message}")
