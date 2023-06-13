@@ -40,26 +40,12 @@ def handle_message(event):
                         quick_reply=QuickReply(
                             items=[
                                 QuickReplyButton(
-                                    action=CameraAction(label="開啟相機吧")
-                                ),
-                                QuickReplyButton(
-                                    action=CameraRollAction(label="相機膠捲")
-                                ),
-                                # return a location message
-                                QuickReplyButton(
-                                    action=LocationAction(label="位置資訊")
-                                ),
-                                QuickReplyButton(
-                                    action=PostbackAction(label="postback", data="postback")
+                                    action=PostbackAction(imageUrl="https://cdn-icons-png.flaticon.com/128/3917/3917292.png", label="詢問出團日期", text="詢問出團日期")
                                 ),
                                 QuickReplyButton(
                                     action=MessageAction(label="message", text="one message")
                                 ),
-                                QuickReplyButton(
-                                    action=DatetimePickerAction(label="時間選單",
-                                                                data ="date_postback",
-                                                                mode ="date")
-                                )
+
                             ])))
     
     msg = event.message.text
