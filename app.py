@@ -3,6 +3,7 @@ from datetime import datetime
 import json
 from flask import Flask, abort, request
 
+from linebot.models import *
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
 from linebot.models import MessageEvent, TextMessage, TextSendMessage
@@ -32,9 +33,15 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    if(event.message == 'temp1'):
-        FlexMessage = json.load(open('temp1.json','r',encoding='utf-8'))
-        line_bot_api.reply_message(event.reply_token, event.FlexSendMessage('temp1',FlexMessage))
+    msg = event.message.text
+    if(msg == 'temp1'):
+        line_bot_api.reply_message(
+            event.reply_token,
+            FlexSendMessage(
+                alt_text = '測試',
+                contents = json.load(open('temp1.json', 'r', encoding='utf-8'))
+            )
+        )
 
     else:
         get_message = event.message.text
