@@ -39,7 +39,8 @@ def handle_message(event):
         quick_reply=QuickReply(
             items=[
                 QuickReplyButton(
-                    action=MessageAction(image_url="https://cdn-icons-png.flaticon.com/128/3917/3917292.png",label="詢問出團日期",text="詢問出團日期")
+                    image_url="https://cdn-icons-png.flaticon.com/128/3917/3917292.png",
+                    action=MessageAction(label="詢問出團日期",text="詢問出團日期")
                     ),
                 QuickReplyButton(
                     action=MessageAction(label="成團資訊",text="成團資訊")
