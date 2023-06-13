@@ -33,26 +33,10 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    line_bot_api.reply_message(event.reply_token,
-        TextSendMessage(
-        text="文字訊息",
-        quick_reply=QuickReply(
-            items=[
-                QuickReplyButton(
-                    image_url="https://cdn-icons-png.flaticon.com/128/3917/3917292.png",
-                    action=MessageAction(label="詢問出團日期",text="詢問出團日期")
-                    ),
-                QuickReplyButton(
-                    action=MessageAction(label="成團資訊",text="成團資訊")
-                    )
-
-                ]
-            )
-        )
-    )
-
+    a = json.load(open('imagemap_1.json', 'r', encoding='utf-8'))
+    line_bot_api.reply_message(event.replyToken, a)
     
-    msg = event.message.text
+    msg = event.message.text 
     if(msg == 'temp1'):
         line_bot_api.reply_message(
             event.reply_token,
@@ -70,7 +54,29 @@ def handle_message(event):
             )
         )
 
-    # else:
+    else:
+        # quick reply
+        line_bot_api.reply_message(event.reply_token,
+        TextSendMessage(
+        text="文字訊息",
+        quick_reply=QuickReply(
+            items=[
+                    QuickReplyButton(
+                        image_url="https://cdn-icons-png.flaticon.com/128/3917/3917261.png",
+                        action=MessageAction(label="詢問出團日期",text="詢問出團日期")
+                        ),
+                    QuickReplyButton(
+                        image_url="https://cdn-icons-png.flaticon.com/128/3917/3917261.png",
+                        action=MessageAction(label="詢問出團日期",text="詢問出團日期")
+                        ),
+                    QuickReplyButton(
+                        action=MessageAction(label="成團資訊",text="成團資訊")
+                        )
+
+                    ]
+                )
+            )
+        )
         # return line_bot_api.replyMessage(event.replyToken,json.load(open('temp2.json', 'r', encoding='utf-8')))
         
         # get_message = event.message.text
