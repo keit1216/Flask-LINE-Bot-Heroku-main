@@ -40,7 +40,7 @@ def handle_message(event):
                         quick_reply=QuickReply(
                             items=[
                                 QuickReplyButton(
-                                    action=PostbackAction(imageUrl="https://cdn-icons-png.flaticon.com/128/3917/3917292.png", label="詢問出團日期", text="詢問出團日期")
+                                    action=MessageAction(imageUrl="https://cdn-icons-png.flaticon.com/128/3917/3917292.png", label="詢問出團日期", text="詢問出團日期")
                                 ),
                                 QuickReplyButton(
                                     action=MessageAction(label="message", text="one message")
