@@ -34,8 +34,7 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     line_bot_api.reply_message(event.reply_token,
-        TextSendMessage(
-        quick_reply=json.load(open('quickreply.json', 'r', encoding='utf-8'))))
+        TextSendMessage(json.load(open('quickreply.json', 'r', encoding='utf-8'))))
     
     msg = event.message.text
     if(msg == 'temp1'):
