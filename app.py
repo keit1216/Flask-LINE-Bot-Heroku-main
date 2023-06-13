@@ -33,8 +33,7 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    a = json.load(open('imagemap_1.json', 'r', encoding='utf-8'))
-    line_bot_api.reply_message(event.reply_token, a)
+    line_bot_api.reply_message(event.reply_token, ImagemapSendMessage(json.load(open('imagemap_1.json', 'r', encoding='utf-8'))))
     
     msg = event.message.text 
     if(msg == 'temp1'):
