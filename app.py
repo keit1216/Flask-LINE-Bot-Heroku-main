@@ -52,8 +52,10 @@ def handle_message(event):
         )
 
     else:
-        get_message = event.message.text
-        # Send To Line
-        reply = TextSendMessage(text=f"{get_message}")
-        line_bot_api.reply_message(event.reply_token, reply)
+        return line_bot_api.replyMessage(event.replyToken,json.load(open('temp2.json', 'r', encoding='utf-8')))
+
+        # get_message = event.message.text
+        # # Send To Line
+        # reply = TextSendMessage(text=f"{get_message}")
+        # line_bot_api.reply_message(event.reply_token, reply)
 
