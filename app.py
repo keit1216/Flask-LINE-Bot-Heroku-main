@@ -34,7 +34,22 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     line_bot_api.reply_message(event.reply_token,
-        json.load(open('quickreply.json', 'r', encoding='utf-8')))
+        TextSendMessage(
+        text="文字訊息",
+        quick_reply=QuickReply(
+            items=[
+                QuickReplyButton(
+                    action=MessageAction(imageUrl="https://cdn-icons-png.flaticon.com/128/3917/3917292.png",label="詢問出團日期",text="詢問出團日期")
+                    ),
+                QuickReplyButton(
+                    action=MessageAction(label="成團資訊",text="成團資訊")
+                    )
+
+                ]
+            )
+        )
+    )
+
     
     msg = event.message.text
     if(msg == 'temp1'):
