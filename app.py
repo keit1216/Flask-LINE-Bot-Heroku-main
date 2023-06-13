@@ -42,6 +42,14 @@ def handle_message(event):
                 contents = json.load(open('temp1.json', 'r', encoding='utf-8'))
             )
         )
+    elif(msg == 'temp2'):
+        line_bot_api.reply_message(
+            event.reply_token,
+            FlexSendMessage(
+                alt_text = '測試',
+                contents = json.load(open('temp2.json', 'r', encoding='utf-8'))
+            )
+        )
 
     else:
         get_message = event.message.text
