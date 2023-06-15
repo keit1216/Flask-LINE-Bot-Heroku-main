@@ -54,6 +54,87 @@ def handle_message(event):
     # ]
     # )
     # line_bot_api.reply_message(event.reply_token, imagemap_message)
+    {
+        "type": "imagemap",
+        "baseUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
+        "altText": "This is an imagemap",
+        "baseSize": {
+            "width": 1040,
+            "height": 422
+        },
+        "actions": [
+            {
+            "type": "uri",
+            "area": {
+                "x": 19,
+                "y": 601,
+                "width": 492,
+                "height": 366
+            },
+            "linkUri": "https://switzerland-travel.tw/travel/eighteen/"
+            },
+            {
+            "type": "uri",
+            "area": {
+                "x": 529,
+                "y": 600,
+                "width": 492,
+                "height": 369
+            },
+            "linkUri": "https://switzerland-travel.tw/travel/【純瑞旅遊10日】收錄少女峰馬特宏峰白朗峰黃金/"
+            },
+            {
+            "type": "uri",
+            "area": {
+                "x": 19,
+                "y": 995,
+                "width": 494,
+                "height": 369
+            },
+            "linkUri": "https://switzerland-travel.tw/travel/germany-switzerland-10days/"
+            },
+            {
+            "type": "uri",
+            "area": {
+                "x": 527,
+                "y": 997,
+                "width": 496,
+                "height": 364
+            },
+            "linkUri": "https://switzerland-travel.tw/travel/10-days-in-switzerland/"
+            },
+            {
+            "type": "uri",
+            "area": {
+                "x": 16,
+                "y": 1394,
+                "width": 497,
+                "height": 371
+            },
+            "linkUri": "https://switzerland-travel.tw/travel/br-milan-10days/"
+            },
+            {
+            "type": "uri",
+            "area": {
+                "x": 529,
+                "y": 1392,
+                "width": 492,
+                "height": 373
+            },
+            "linkUri": "https://switzerland-travel.tw/travel/10-days-in-switzerland-2/"
+            },
+            {
+            "type": "message",
+            "area": {
+                "x": 269,
+                "y": 1778,
+                "width": 501,
+                "height": 47
+            },
+            "text": "馬上諮詢"
+            }
+        ]
+    }
     
     msg = event.message.text 
     if(msg == 'temp1'):
