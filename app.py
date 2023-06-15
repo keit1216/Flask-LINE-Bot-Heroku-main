@@ -34,26 +34,26 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     # imagemap
-    imagemap_message = ImagemapSendMessage(
-    base_url='https://github.com/line/line-bot-sdk-nodejs/raw/master/examples/kitchensink/static/rich',
-    alt_text='this is an imagemap',
-    base_size=BaseSize(height=1040, width=1040),
-    actions=[
-        URIImagemapAction(
-            link_uri='https://google.com/',
-            area=ImagemapArea(
-                x=0, y=586, width=520, height=454
-            )
-        ),
-        MessageImagemapAction(
-            text='hello',
-            area=ImagemapArea(
-                x=520, y=586, width=520, height=454
-            )
-        )
-    ]
-    )
-    line_bot_api.reply_message(event.reply_token, imagemap_message)
+    # imagemap_message = ImagemapSendMessage(
+    # base_url='https://github.com/line/line-bot-sdk-nodejs/raw/master/examples/kitchensink/static/rich',
+    # alt_text='this is an imagemap',
+    # base_size=BaseSize(height=1040, width=1040),
+    # actions=[
+    #     URIImagemapAction(
+    #         link_uri='https://google.com/',
+    #         area=ImagemapArea(
+    #             x=0, y=586, width=520, height=454
+    #         )
+    #     ),
+    #     MessageImagemapAction(
+    #         text='hello',
+    #         area=ImagemapArea(
+    #             x=520, y=586, width=520, height=454
+    #         )
+    #     )
+    # ]
+    # )
+    # line_bot_api.reply_message(event.reply_token, imagemap_message)
     
     msg = event.message.text 
     if(msg == 'temp1'):

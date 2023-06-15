@@ -1,0 +1,25 @@
+{
+    "size": {
+      "width": 2500,
+      "height": 1686
+    },
+    "selected": true,
+    "name": "richmenu-a",
+    "chatBarText": "Menu",
+    "areas": [
+      {
+        "bounds": {
+          "x": 1679,
+          "y": 858,
+          "width": 804,
+          "height": 813
+        },
+        "action": {
+          "type": "richmenuswitch",
+          "richMenuAliasId": "richmenu-b",
+          "data": "richmenu=b"
+        }
+      }
+    ]
+  }
+  
