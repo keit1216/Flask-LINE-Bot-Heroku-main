@@ -54,89 +54,90 @@ def handle_message(event):
     # ]
     # )
     # line_bot_api.reply_message(event.reply_token, imagemap_message)
-    imagemap_message = ImagemapSendMessage(
-    {
-        "type": "imagemap",
-        "baseUrl": "https://github.com/keit1216/Flask-LINE-Bot-Heroku-main/tree/main/%E7%91%9E%E5%A3%AB%E6%97%85%E9%81%8A",
-        "altText": "This is an imagemap",
-        "baseSize": {
-            "width": 1040,
-            "height": 422
-        },
-        "actions": [
-            {
-            "type": "uri",
-            "area": {
-                "x": 19,
-                "y": 601,
-                "width": 492,
-                "height": 366
-            },
-            "linkUri": "https://switzerland-travel.tw/travel/eighteen/"
-            },
-            {
-            "type": "uri",
-            "area": {
-                "x": 529,
-                "y": 600,
-                "width": 492,
-                "height": 369
-            },
-            "linkUri": "https://switzerland-travel.tw/travel/【純瑞旅遊10日】收錄少女峰馬特宏峰白朗峰黃金/"
-            },
-            {
-            "type": "uri",
-            "area": {
-                "x": 19,
-                "y": 995,
-                "width": 494,
-                "height": 369
-            },
-            "linkUri": "https://switzerland-travel.tw/travel/germany-switzerland-10days/"
-            },
-            {
-            "type": "uri",
-            "area": {
-                "x": 527,
-                "y": 997,
-                "width": 496,
-                "height": 364
-            },
-            "linkUri": "https://switzerland-travel.tw/travel/10-days-in-switzerland/"
-            },
-            {
-            "type": "uri",
-            "area": {
-                "x": 16,
-                "y": 1394,
-                "width": 497,
-                "height": 371
-            },
-            "linkUri": "https://switzerland-travel.tw/travel/br-milan-10days/"
-            },
-            {
-            "type": "uri",
-            "area": {
-                "x": 529,
-                "y": 1392,
-                "width": 492,
-                "height": 373
-            },
-            "linkUri": "https://switzerland-travel.tw/travel/10-days-in-switzerland-2/"
-            },
-            {
-            "type": "message",
-            "area": {
-                "x": 269,
-                "y": 1778,
-                "width": 501,
-                "height": 47
-            },
-            "text": "馬上諮詢"
-            }
-        ]
-    }
-    )
+
+    # imagemap_message = ImagemapSendMessage(
+    # {
+    #     "type": "imagemap",
+    #     "baseUrl": "https://github.com/keit1216/Flask-LINE-Bot-Heroku-main/tree/main/%E7%91%9E%E5%A3%AB%E6%97%85%E9%81%8A",
+    #     "altText": "This is an imagemap",
+    #     "baseSize": {
+    #         "width": 1040,
+    #         "height": 422
+    #     },
+    #     "actions": [
+    #         {
+    #         "type": "uri",
+    #         "area": {
+    #             "x": 19,
+    #             "y": 601,
+    #             "width": 492,
+    #             "height": 366
+    #         },
+    #         "linkUri": "https://switzerland-travel.tw/travel/eighteen/"
+    #         },
+    #         {
+    #         "type": "uri",
+    #         "area": {
+    #             "x": 529,
+    #             "y": 600,
+    #             "width": 492,
+    #             "height": 369
+    #         },
+    #         "linkUri": "https://switzerland-travel.tw/travel/【純瑞旅遊10日】收錄少女峰馬特宏峰白朗峰黃金/"
+    #         },
+    #         {
+    #         "type": "uri",
+    #         "area": {
+    #             "x": 19,
+    #             "y": 995,
+    #             "width": 494,
+    #             "height": 369
+    #         },
+    #         "linkUri": "https://switzerland-travel.tw/travel/germany-switzerland-10days/"
+    #         },
+    #         {
+    #         "type": "uri",
+    #         "area": {
+    #             "x": 527,
+    #             "y": 997,
+    #             "width": 496,
+    #             "height": 364
+    #         },
+    #         "linkUri": "https://switzerland-travel.tw/travel/10-days-in-switzerland/"
+    #         },
+    #         {
+    #         "type": "uri",
+    #         "area": {
+    #             "x": 16,
+    #             "y": 1394,
+    #             "width": 497,
+    #             "height": 371
+    #         },
+    #         "linkUri": "https://switzerland-travel.tw/travel/br-milan-10days/"
+    #         },
+    #         {
+    #         "type": "uri",
+    #         "area": {
+    #             "x": 529,
+    #             "y": 1392,
+    #             "width": 492,
+    #             "height": 373
+    #         },
+    #         "linkUri": "https://switzerland-travel.tw/travel/10-days-in-switzerland-2/"
+    #         },
+    #         {
+    #         "type": "message",
+    #         "area": {
+    #             "x": 269,
+    #             "y": 1778,
+    #             "width": 501,
+    #             "height": 47
+    #         },
+    #         "text": "馬上諮詢"
+    #         }
+    #     ]
+    # }
+    # )
     line_bot_api.reply_message(event.reply_token, imagemap_message)
 
     msg = event.message.text 
@@ -180,6 +181,9 @@ def handle_message(event):
                 )
             )
         )
+    elif(msg == 'map'):
+        imagemap_message = json.load(open('imagemap_1.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(event.reply_token, ImagemapSendMessage('imagemap',imagemap_message))
         # return line_bot_api.replyMessage(event.replyToken,json.load(open('temp2.json', 'r', encoding='utf-8')))
         
         # get_message = event.message.text
