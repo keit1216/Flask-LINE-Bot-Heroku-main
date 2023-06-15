@@ -137,6 +137,8 @@ def handle_message(event):
         ]
     }
     )
+    line_bot_api.reply_message(event.reply_token, imagemap_message)
+
     msg = event.message.text 
     if(msg == 'temp1'):
         line_bot_api.reply_message(
@@ -155,7 +157,7 @@ def handle_message(event):
             )
         )
 
-    else:
+    elif(msg == 'quick'):
         # quick reply
         line_bot_api.reply_message(event.reply_token,
         TextSendMessage(
