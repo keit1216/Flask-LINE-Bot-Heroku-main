@@ -54,9 +54,10 @@ def handle_message(event):
     # ]
     # )
     # line_bot_api.reply_message(event.reply_token, imagemap_message)
+    imagemap_message = ImagemapSendMessage(
     {
         "type": "imagemap",
-        "baseUrl": "PROVIDE_URL_FROM_YOUR_SERVER",
+        "baseUrl": "https://github.com/keit1216/Flask-LINE-Bot-Heroku-main/tree/main/%E7%91%9E%E5%A3%AB%E6%97%85%E9%81%8A",
         "altText": "This is an imagemap",
         "baseSize": {
             "width": 1040,
@@ -135,7 +136,7 @@ def handle_message(event):
             }
         ]
     }
-    
+    )
     msg = event.message.text 
     if(msg == 'temp1'):
         line_bot_api.reply_message(
