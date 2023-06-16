@@ -184,7 +184,7 @@ def handle_message(event):
     elif(msg == 'map'):
         # imagemap
         imagemap_message = ImagemapSendMessage(
-        base_url='https://github.com/keit1216/Flask-LINE-Bot-Heroku-main/tree/main/%E7%91%9E%E5%A3%AB%E6%97%85%E9%81%8A',
+        base_url='https://github.com/keit1216/Flask-LINE-Bot-Heroku-main/tree/main/switzerland',
         alt_text='this is an imagemap',
         base_size=BaseSize(height=1040, width=422),
         actions=[
