@@ -186,7 +186,7 @@ def handle_message(event):
         imagemap_message = ImagemapSendMessage(
         base_url='https://github.com/keit1216/Flask-LINE-Bot-Heroku-main/tree/main/switzerland',
         alt_text='this is an imagemap',
-        base_size=BaseSize(height=1040, width=1830),
+        base_size=BaseSize(height=1830, width=1040),
         actions=[
             URIImagemapAction(
                 link_uri='https://switzerland-travel.tw/travel/eighteen/',
