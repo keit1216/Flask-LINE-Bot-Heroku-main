@@ -150,6 +150,7 @@ def handle_message(event):
         line_bot_api.reply_message(
             event.reply_token,
             ImagemapSendMessage(
+                alt_text = 'test'
                 contents = json.load(open('travel_info.json', 'r', encoding='utf-8'))
             )
         )
