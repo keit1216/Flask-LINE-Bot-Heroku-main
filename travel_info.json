@@ -1,6 +1,4 @@
-{
-    "messages":
-    [{
+{   
     "type": "imagemap",
     "baseUrl": "https://res.cloudinary.com/dljndh8rq/image/upload/v1687509072/travelinfo",
     "altText": "This is an imagemap",
@@ -50,5 +48,4 @@
         "text": "索取獨立成團資訊"
       }
     ]
-  }
-]}
+}
