@@ -149,10 +149,7 @@ def handle_message(event):
     elif ('出團資訊' in msg):
         line_bot_api.reply_message(
             event.reply_token,
-            ImagemapSendMessage(
-                alt_text = 'test',
-                contents = json.load(open('travel_info.json', 'r', encoding='utf-8'))
-            )
+            json.load(open('travel_info.json', 'r', encoding='utf-8'))
         )
         line_bot_api.reply_message(event.reply_token, imagemap_message)
         # get_message = event.message.text
