@@ -179,6 +179,35 @@ def handle_message(event):
         ]
         )
         line_bot_api.reply_message(event.reply_token, imagemap_message)
+    
+    elif ('按鈕3' in msg):
+        imagemap_message = ImagemapSendMessage(
+        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687509135/3btn',
+        alt_text='按鈕3',
+        base_size=BaseSize(height=1040, width=1040),
+        actions=[
+            MessageImagemapAction(
+                text='索取行程資訊',
+                area=ImagemapArea(
+                    x=104, y=184, width=394, height=362
+                )
+            ),
+            MessageImagemapAction(
+                text='索取出團日期',
+                area=ImagemapArea(
+                    x=543, y=182, width=392, height=365
+                )
+            ),
+            MessageImagemapAction(
+                text='專人諮詢',
+                area=ImagemapArea(
+                    x=103, y=576, width=836, height=317
+                )
+            )
+        ]
+        )
+        line_bot_api.reply_message(event.reply_token, imagemap_message)
+
 
         # get_message = event.message.text
         # # Send To Line
