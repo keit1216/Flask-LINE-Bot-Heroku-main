@@ -293,7 +293,7 @@ def handle_postback(event):
 @handler.add(FollowEvent)
 def handle_follow(event):
     message_list = [
-    TextSendMessage(text='菩提邦創辦人有15年的印度朝聖經驗 \
+    TextSendMessage(text='菩提邦創辦人有15年的印度朝聖經驗\n \
                         服務超過2000海內外法友前往印度朝聖\n \
                         菩提邦印度朝聖的宗旨是\n \
                         「用心做好每一團 利益所有朝聖者」\n\
