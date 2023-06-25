@@ -293,35 +293,55 @@ def handle_postback(event):
 @handler.add(FollowEvent)
 def handle_follow(event):
     message_list = [
-    TextSendMessage(text='你好 xxxx'),
-    TextSendMessage(text='顯示圖片 我們擁有15年經驗'),
+    TextSendMessage(text='菩提邦創辦人有15年的印度朝聖經驗 \
+                        服務超過2000海內外法友前往印度朝聖\n \
+                        菩提邦印度朝聖的宗旨是\n \
+                        「用心做好每一團 利益所有朝聖者」\n\
+                        所以\n\
+                        我們一台車45人座 只收20位\n\
+                        我們一團20位法友\n\
+                        由領隊導遊導遊助理三人服務\n\
+                        為了讓所有參團的法友能夠有收穫，\n\
+                        我們每個月都會舉辦兩場說明會\n\
+                        一場是「如何擁有一次殊勝難得的朝聖因緣」\n\
+                        另一場則是「聖地與經典」\n\
+                        希望透過前行的準備，讓每位法友都能法喜充滿\n\
+                        此外，我們為了提升領隊跟導遊的素質，創辦了菩提邦朝聖學院，三年來，菩提邦印度團隊們開始\n\
+                        每天供佛、繞塔、經行、禪修\n\
+                        每天在大塔前排燈點燈祈福\n\
+                        並且學習了華嚴經法華經楞嚴經\n\
+                        以及佛陀的108則水平聖蹟\n\
+                        他們，已經不只是導遊，更是聖地的守護者\n\
+                        我們期盼，帶著大家一起回到印度\n\
+                        一起更美好的自己相遇'
+    ),
     ImagemapSendMessage(
-        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687509072/travelinfo',
+        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687717149/india',
         alt_text='索取出團資訊',
         base_size=BaseSize(height=1040, width=1040),
         actions=[
             MessageImagemapAction(
-                text='索取13天行程資訊',
+                text='追尋釋尊足跡～經典印度朝聖13日',
                 area=ImagemapArea(
-                    x=0, y=105, width=519, height=416
+                    x=26, y=167, width=472, height=343
                 )
             ),
             MessageImagemapAction(
-                text='索取15天行程資訊',
+                text='經典印度朝聖15日',
                 area=ImagemapArea(
-                    x=520, y=106, width=520, height=414
+                    x=546, y=172, width=469, height=334
                 )
             ),
             MessageImagemapAction(
-                text='索取18天行程資訊',
+                text='印度佛陀八大聖地寺廟寺廟巡禮團19日',
                 area=ImagemapArea(
-                    x=1, y=524, width=519, height=516
+                    x=23, y=553, width=479, height=340
                 )
             ),
             MessageImagemapAction(
-                text='索取獨立成團資訊',
+                text='獨立成團',
                 area=ImagemapArea(
-                    x=524, y=521, width=515, height=519
+                    x=545, y=554, width=472, height=337
                 )
             )
         ]
