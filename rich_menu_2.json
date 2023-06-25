@@ -29,8 +29,8 @@
         },
         "action": {
             "type": "richmenuswitch",
-            "richMenuAliasId": "richmenu-c",
-            "data": "聖地點燈"
+            "richMenuAliasId": "richmenu-d",
+            "data": "索取地圖"
         }
       },
       {
@@ -42,8 +42,8 @@
         },
         "action": {
             "type": "richmenuswitch",
-            "richMenuAliasId": "richmenu-d",
-            "data": "索取地圖"
+            "richMenuAliasId": "richmenu-c",
+            "data": "聖地點燈"
         }
       },
       {

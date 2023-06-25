@@ -1,0 +1,60 @@
+{
+    "size": {
+      "width": 2500,
+      "height": 1686
+    },
+    "selected": true,
+    "name": "richmenu-e",
+    "chatBarText": "查看更多資訊",
+    "areas": [
+      {
+        "bounds": {
+          "x": 243,
+          "y": 446,
+          "width": 2014,
+          "height": 515
+        },
+        "action": {
+          "type": "message",
+          "text": "我要報名講座"
+        }
+      },
+      {
+        "bounds": {
+          "x": 243,
+          "y": 1030,
+          "width": 603,
+          "height": 338
+        },
+        "action": {
+          "type": "message",
+          "text": "講座內容"
+        }
+      },
+      {
+        "bounds": {
+          "x": 951,
+          "y": 1033,
+          "width": 601,
+          "height": 329
+        },
+        "action": {
+          "type": "message",
+          "text": "線上回看"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1663,
+          "y": 1043,
+          "width": 588,
+          "height": 322
+        },
+        "action": {
+            "type": "richmenuswitch",
+            "richMenuAliasId": "richmenu-a",
+            "data": "更多功能"
+        }
+      }
+    ]
+  }

@@ -4,63 +4,51 @@
       "height": 1686
     },
     "selected": false,
-    "name": "richmenu-b",
+    "name": "richmenu-c",
     "chatBarText": "查看更多資訊",
     "areas": [
       {
         "bounds": {
-          "x": 249,
-          "y": 331,
-          "width": 847,
-          "height": 515
+          "x": 253,
+          "y": 335,
+          "width": 843,
+          "height": 511
         },
         "action": {
           "type": "message",
-          "text": "索取13天xxxxx"
+          "text": "按鈕1"
         }
       },
       {
         "bounds": {
           "x": 1404,
-          "y": 338,
-          "width": 843,
-          "height": 499
-        },
-        "action": {
-          "type": "message",
-          "text": "索取15天xxxxx"
-        }
-      },
-      {
-        "bounds": {
-          "x": 250,
-          "y": 958,
-          "width": 846,
+          "y": 339,
+          "width": 844,
           "height": 509
         },
         "action": {
           "type": "message",
-          "text": "索取18天xxxxx"
+          "text": "按鈕2"
         }
       },
       {
         "bounds": {
-          "x": 1404,
-          "y": 952,
-          "width": 843,
-          "height": 515
+          "x": 246,
+          "y": 955,
+          "width": 2011,
+          "height": 518
         },
         "action": {
           "type": "message",
-          "text": "索取獨立成團資訊"
+          "text": "我要點燈"
         }
       },
       {
         "bounds": {
-          "x": 1896,
-          "y": 89,
-          "width": 351,
-          "height": 180
+          "x": 1893,
+          "y": 85,
+          "width": 358,
+          "height": 184
         },
         "action": {
             "type": "richmenuswitch",
