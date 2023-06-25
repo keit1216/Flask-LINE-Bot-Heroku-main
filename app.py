@@ -258,6 +258,40 @@ def handle_message(event):
 
     elif "獨立成團" in msg:
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦有15年的印度朝聖經驗，如果您的人數超過15人，就可以考慮選擇獨立出團，菩提邦可以按照您的天數、預算為您量身訂做最適合您的朝聖行程，歡迎來電 02-77304119或是留言給我們 我們會盡快與您聯繫'))
+
+    elif "關於點燈團隊" in msg:
+        # message_image_1 = [
+        #     TextSendMessage(text='菩提邦印度團隊從疫情開始，因為台灣法友的心願，團隊開始在菩提迦耶為大眾點燈，他們每天繞塔，每天供佛，每天點燈，只希望能夠將聖地的美好，傳達給每一位尊敬的法友，願我們能用這盞燈，祈求眾生能得遇佛法')
+        #     ,ImageSendMessage(
+        #     original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/v53kll5zrkqt6jmiuqda.jpg',
+        #     preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/v53kll5zrkqt6jmiuqda.jpg')
+        # ]
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦印度團隊從疫情開始，因為台灣法友的心願，團隊開始在菩提迦耶為大眾點燈，他們每天繞塔，每天供佛，每天點燈，只希望能夠將聖地的美好，傳達給每一位尊敬的法友，願我們能用這盞燈，祈求眾生能得遇佛法'))
+    
+    elif "去年點燈紀錄" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦印度團隊每天都會將點燈的紀錄上傳到臉書上，歡迎大家一同分享 https://www.facebook.com/budhiparty'))
+    
+    elif "我要點燈" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='兔年點燈，菩提邦印度團隊會在2023年下半年每天在菩提迦耶為您點一盞燈，為您繞塔供佛祈福，想點燈者請填寫表單：\nhttps://forms.gle/3hRTEYK8mtq2jYvX9'))
+    
+    elif "朝聖地圖正面" in msg:
+        line_bot_api.reply_message(event.reply_token, ImageSendMessage(
+            original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/v53kll5zrkqt6jmiuqda.jpg',
+            preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/v53kll5zrkqt6jmiuqda.jpg'))
+
+    elif "朝聖地圖背面" in msg:
+        line_bot_api.reply_message(event.reply_token, ImageSendMessage(
+            original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/rydk4fiiuohuiophe8a4.jpg',
+            preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/rydk4fiiuohuiophe8a4.jpg'))
+        
+    elif "紙本朝聖地圖" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='為了使更多法友了解印度，菩提邦製作了免費印度朝聖地圖提供大家索取，請填寫表單，我們會盡快為您處理\nhttps://forms.gle/JtLa9bSqTKFRpDwG6'))
+    
+    elif "講座內容" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='講座內容：\n● 為什麼要去印度朝聖？\n● 談談佛陀的八大聖地\n● 印度朝聖，注意事項大公開\n● 如何擁有殊勝難得的朝聖因緣\n'))
+
+    elif "我要報名免費線上講座" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='▎線上印度朝聖講座來了  ▎\n\n追隨釋尊足跡，前往印度朝聖是許多佛教徒的心願，\n然而，去印度朝聖到底該如何籌備，聽到的卻總是隻字片語，\n為了使更多法友能夠更加充分地做好印度朝聖的前行準備\n使這一趟一生一次的心靈之旅能夠殊勝圓滿！\n菩提邦團隊在辦理免費線上講座，期許能讓更多人認識印度、瞭解朝聖，完成一生的心願。\n\n🙏報名連結：https://forms.gle/hKudeHHtDHHobt7J7\n\n講座內容：\n● 為什麼要去印度朝聖？\n● 談談佛陀的八大聖地\n● 印度朝聖，注意事項大公開\n● 如何擁有殊勝難得的朝聖因緣\n\n菩提邦團隊合十'))
         # get_message = event.message.text
         # # Send To Line
         # reply = TextSendMessage(text=f"{get_message}")

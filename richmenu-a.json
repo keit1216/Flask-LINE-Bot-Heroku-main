@@ -1,0 +1,63 @@
+{
+    "size": {
+      "width": 2500,
+      "height": 1686
+    },
+    "selected": true,
+    "name": "richmenu-a",
+    "chatBarText": "查看更多資訊",
+    "areas": [
+      {
+        "bounds": {
+          "x": 36,
+          "y": 394,
+          "width": 830,
+          "height": 423
+        },
+        "action": {
+            "type": "richmenuswitch",
+            "richMenuAliasId": "richmenu-b",
+            "data": "出團資訊"
+        }
+      },
+      {
+        "bounds": {
+          "x": 892,
+          "y": 397,
+          "width": 837,
+          "height": 430
+        },
+        "action": {
+            "type": "richmenuswitch",
+            "richMenuAliasId": "richmenu-c",
+            "data": "聖地點燈"
+        }
+      },
+      {
+        "bounds": {
+          "x": 36,
+          "y": 892,
+          "width": 843,
+          "height": 453
+        },
+        "action": {
+            "type": "richmenuswitch",
+            "richMenuAliasId": "richmenu-d",
+            "data": "索取地圖"
+        }
+      },
+      {
+        "bounds": {
+          "x": 902,
+          "y": 902,
+          "width": 837,
+          "height": 440
+        },
+        "action": {
+            "type": "richmenuswitch",
+            "richMenuAliasId": "richmenu-e",
+            "data": "免費線上講座"
+        }
+      }
+    ]
+  }

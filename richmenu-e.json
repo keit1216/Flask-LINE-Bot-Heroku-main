@@ -3,28 +3,16 @@
       "width": 2500,
       "height": 1686
     },
-    "selected": true,
+    "selected": false,
     "name": "richmenu-e",
     "chatBarText": "查看更多資訊",
     "areas": [
       {
         "bounds": {
-          "x": 243,
-          "y": 446,
-          "width": 2014,
-          "height": 515
-        },
-        "action": {
-          "type": "message",
-          "text": "我要報名講座"
-        }
-      },
-      {
-        "bounds": {
-          "x": 243,
-          "y": 1030,
-          "width": 603,
-          "height": 338
+          "x": 46,
+          "y": 394,
+          "width": 518,
+          "height": 423
         },
         "action": {
           "type": "message",
@@ -33,10 +21,10 @@
       },
       {
         "bounds": {
-          "x": 951,
-          "y": 1033,
-          "width": 601,
-          "height": 329
+          "x": 607,
+          "y": 381,
+          "width": 528,
+          "height": 442
         },
         "action": {
           "type": "message",
@@ -45,15 +33,27 @@
       },
       {
         "bounds": {
-          "x": 1663,
-          "y": 1043,
-          "width": 588,
-          "height": 322
+          "x": 1168,
+          "y": 374,
+          "width": 531,
+          "height": 456
         },
         "action": {
             "type": "richmenuswitch",
             "richMenuAliasId": "richmenu-a",
             "data": "更多功能"
+        }
+      },
+      {
+        "bounds": {
+          "x": 39,
+          "y": 903,
+          "width": 1687,
+          "height": 436
+        },
+        "action": {
+          "type": "message",
+          "text": "我要報名免費線上講座"
         }
       }
     ]

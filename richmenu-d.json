@@ -9,27 +9,51 @@
     "areas": [
       {
         "bounds": {
-          "x": 243,
-          "y": 492,
-          "width": 2011,
-          "height": 515
+          "x": 52,
+          "y": 394,
+          "width": 512,
+          "height": 429
         },
         "action": {
           "type": "message",
-          "text": "我要索取朝聖地圖"
+          "text": "索取電子版朝聖地圖正面"
         }
       },
       {
         "bounds": {
-          "x": 1969,
-          "y": 1325,
-          "width": 370,
-          "height": 197
+          "x": 623,
+          "y": 381,
+          "width": 508,
+          "height": 449
+        },
+        "action": {
+          "type": "message",
+          "text": "索取電子版朝聖地圖背面"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1187,
+          "y": 387,
+          "width": 496,
+          "height": 440
         },
         "action": {
             "type": "richmenuswitch",
             "richMenuAliasId": "richmenu-a",
             "data": "更多功能"
+        }
+      },
+      {
+        "bounds": {
+          "x": 26,
+          "y": 896,
+          "width": 1729,
+          "height": 449
+        },
+        "action": {
+          "type": "message",
+          "text": "我要索取紙本朝聖地圖"
         }
       }
     ]
