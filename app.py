@@ -247,7 +247,8 @@ def handle_message(event):
             )
         ]
         line_bot_api.reply_message(event.reply_token, message_list)
-
+    elif "13日" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='你好 xxxx'))
         # get_message = event.message.text
         # # Send To Line
         # reply = TextSendMessage(text=f"{get_message}")
@@ -293,28 +294,7 @@ def handle_postback(event):
 @handler.add(FollowEvent)
 def handle_follow(event):
     message_list = [
-    TextSendMessage(text='菩提邦創辦人有15年的印度朝聖經驗%0D%0A \
-                        服務超過2000海內外法友前往印度朝聖%0D%0A \
-                        菩提邦印度朝聖的宗旨是%0D%0A \
-                        「用心做好每一團 利益所有朝聖者」%0D%0A\
-                        所以%0D%0A\
-                        我們一台車45人座 只收20位%0D%0A\
-                        我們一團20位法友%0D%0A\
-                        由領隊導遊導遊助理三人服務%0D%0A\
-                        為了讓所有參團的法友能夠有收穫，%0D%0A\
-                        我們每個月都會舉辦兩場說明會%0D%0A\
-                        一場是「如何擁有一次殊勝難得的朝聖因緣」%0D%0A\
-                        另一場則是「聖地與經典」%0D%0A\
-                        希望透過前行的準備，讓每位法友都能法喜充滿%0D%0A\
-                        此外，我們為了提升領隊跟導遊的素質，創辦了菩提邦朝聖學院，三年來，菩提邦印度團隊們開始%0D%0A\
-                        每天供佛、繞塔、經行、禪修%0D%0A\
-                        每天在大塔前排燈點燈祈福%0D%0A\
-                        並且學習了華嚴經法華經楞嚴經%0D%0A\
-                        以及佛陀的108則水平聖蹟%0D%0A\
-                        他們，已經不只是導遊，更是聖地的守護者%0D%0A\
-                        我們期盼，帶著大家一起回到印度%0D%0A\
-                        一起更美好的自己相遇'
-    ),
+    TextSendMessage(text='菩提邦創辦人有15年的印度朝聖經驗\n服務超過2000海內外法友前往印度朝聖\n菩提邦印度朝聖的宗旨是\n「用心做好每一團 利益所有朝聖者」\n所以\n我們一台車45人座 只收20位\n\我們一團20位法友\n由領隊導遊導遊助理三人服務\n為了讓所有參團的法友能夠有收穫，\n我們每個月都會舉辦兩場說明會\n一場是「如何擁有一次殊勝難得的朝聖因緣」\n另一場則是「聖地與經典」\n希望透過前行的準備，讓每位法友都能法喜充滿\n此外，我們為了提升領隊跟導遊的素質，創辦了菩提邦朝聖學院，三年來，菩提邦印度團隊們開始\n每天供佛、繞塔、經行、禪修\n每天在大塔前排燈點燈祈福\n並且學習了華嚴經法華經楞嚴經\n以及佛陀的108則水平聖蹟\n他們，已經不只是導遊，更是聖地的守護者\n我們期盼，帶著大家一起回到印度\n一起更美好的自己相遇'),
     ImagemapSendMessage(
         base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687717149/india',
         alt_text='索取出團資訊',
