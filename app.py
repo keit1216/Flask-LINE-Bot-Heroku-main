@@ -37,6 +37,8 @@ def handle_message(event):
 
 
     msg = event.message.text 
+    postback_data = event.postback.data
+
     if(msg == 'temp1'):
         line_bot_api.reply_message(
             event.reply_token,
@@ -146,7 +148,7 @@ def handle_message(event):
         )
         line_bot_api.reply_message(event.reply_token, imagemap_message)
 
-    elif ('出團資訊' in msg):
+    elif ('出團資訊' in msg or '出團資訊' in postback_data):
         imagemap_message = ImagemapSendMessage(
         base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687509072/travelinfo',
         alt_text='索取出團資訊',
