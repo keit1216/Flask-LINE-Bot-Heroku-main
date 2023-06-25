@@ -37,7 +37,6 @@ def handle_message(event):
 
 
     msg = event.message.text 
-    postback_data = event.postback.data
 
     if(msg == 'temp1'):
         line_bot_api.reply_message(
@@ -148,7 +147,7 @@ def handle_message(event):
         )
         line_bot_api.reply_message(event.reply_token, imagemap_message)
 
-    elif ('出團資訊' in msg or '出團資訊' in postback_data):
+    elif ('出團資訊' in msg):
         imagemap_message = ImagemapSendMessage(
         base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687509072/travelinfo',
         alt_text='索取出團資訊',
@@ -216,3 +215,39 @@ def handle_message(event):
         # reply = TextSendMessage(text=f"{get_message}")
         # line_bot_api.reply_message(event.reply_token, reply)
 
+@handler.add(PostbackEvent)
+def handle_postback(event):
+    postback_data = event.postback.data
+    if ('出團資訊' in postback_data):
+        imagemap_message = ImagemapSendMessage(
+        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687509072/travelinfo',
+        alt_text='索取出團資訊',
+        base_size=BaseSize(height=1040, width=1040),
+        actions=[
+            MessageImagemapAction(
+                text='索取13天行程資訊',
+                area=ImagemapArea(
+                    x=0, y=105, width=519, height=416
+                )
+            ),
+            MessageImagemapAction(
+                text='索取15天行程資訊',
+                area=ImagemapArea(
+                    x=520, y=106, width=520, height=414
+                )
+            ),
+            MessageImagemapAction(
+                text='索取18天行程資訊',
+                area=ImagemapArea(
+                    x=1, y=524, width=519, height=516
+                )
+            ),
+            MessageImagemapAction(
+                text='索取獨立成團資訊',
+                area=ImagemapArea(
+                    x=524, y=521, width=515, height=519
+                )
+            )
+        ]
+        )
+    line_bot_api.reply_message(event.reply_token, imagemap_message)
