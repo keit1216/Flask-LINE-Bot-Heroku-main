@@ -248,7 +248,16 @@ def handle_message(event):
         ]
         line_bot_api.reply_message(event.reply_token, message_list)
     elif "13日" in msg:
-        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='"追尋釋尊足跡~經典印度朝聖13日：\n⭐行程連結(:) https://lihi1.com/4LlNi \n\n感謝老法友的支持與愛護，\n目前各團均已有人接受報名\n報名狀況如下：\n\n❤️=已成團\n💚=準備成團\n\n\n10月3日：已報名7位\n❤️10月17日：已報名10位\n💚10月31日：已報名9位\n11月出發已額滿\n❤️12月5日：已報名12位\n❤️12月19日：已報名16位\n1月2日：已報名4位\n💚1月16日：已報名9位\n1月30日：已報名6位\n💚2月13日：已報名8位\n2月27日：已報名7位\n3月12日：已報名4位\n'))
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='追尋釋尊足跡~經典印度朝聖13日：\n⭐行程連結(:) https://lihi1.com/4LlNi \n\n感謝老法友的支持與愛護，\n目前各團均已有人接受報名\n報名狀況如下：\n\n❤️=已成團\n💚=準備成團\n\n\n10月3日：已報名7位\n❤️10月17日：已報名10位\n💚10月31日：已報名9位\n11月出發已額滿\n❤️12月5日：已報名12位\n❤️12月19日：已報名16位\n1月2日：已報名4位\n💚1月16日：已報名9位\n1月30日：已報名6位\n💚2月13日：已報名8位\n2月27日：已報名7位\n3月12日：已報名4位\n'))
+    
+    elif "15日" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='經典印度朝聖15日\n⭐行程連結(:) https://lihi3.cc/UGhJy\n請您參考\n💡正念在印度~印度佛陀聖地深度15日：\n9月17日：可報名17位\n10月1日：可報名19位\n10月15日：可報名20位\n❤️10月29日：可報名3位\n11月出發已額滿\n12月3日：可報名16位\n12月17日：可報名20位\n12月31日：可報名20位\n💚1月14日：可報名16位\n💚1月28日：可報名20位\n2月11日：可報名20位\n2月25日：可報名20位\n3月10日：可報名19位\n'))
+        
+    elif "19日" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='印度佛陀八大聖地寺廟巡禮團19日：\n⭐行程連結(:)https://lihi1.com/NIlvu\n\n感謝老法友的支持與愛護，\n目前各團均已有人接受報名\n報名狀況如下：\n\n❤️=已成團\n💚=準備成團\n\n❤️10月31日：已滿團\n11月出發已額滿\n💚12月5日：已報名9位\n1月2日：已報名5位\n1月23日：已報名5位\n2月13日：已報名6位\n3月5日：已報名2位'))
+
+    elif "獨立成團" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦有15年的印度朝聖經驗，如果您的人數超過15人，就可以考慮選擇獨立出團，菩提邦可以按照您的天數、預算為您量身訂做最適合您的朝聖行程，歡迎來電 02-77304119或是留言給我們 我們會盡快與您聯繫'))
         # get_message = event.message.text
         # # Send To Line
         # reply = TextSendMessage(text=f"{get_message}")
