@@ -256,17 +256,17 @@ def handle_message(event):
     elif "19日" in msg:
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='印度佛陀八大聖地寺廟巡禮團19日：\n⭐行程連結(:)https://lihi1.com/NIlvu\n\n感謝老法友的支持與愛護，\n目前各團均已有人接受報名\n報名狀況如下：\n\n❤️=已成團\n💚=準備成團\n\n❤️10月31日：已滿團\n11月出發已額滿\n💚12月5日：已報名9位\n1月2日：已報名5位\n1月23日：已報名5位\n2月13日：已報名6位\n3月5日：已報名2位'))
 
-    elif "獨立成團" in msg:
-        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦有15年的印度朝聖經驗，如果您的人數超過15人，就可以考慮選擇獨立出團，菩提邦可以按照您的天數、預算為您量身訂做最適合您的朝聖行程，歡迎來電 02-77304119或是留言給我們 我們會盡快與您聯繫'))
+    elif "自行組團" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦有15年的印度朝聖經驗，如果您的人數超過15人，就可以考慮選擇自行組團，菩提邦可以按照您的天數、預算為您量身訂做最適合您的朝聖行程，歡迎來電 02-77304119或是留言給我們 我們會盡快與您聯繫'))
 
     elif "關於點燈團隊" in msg:
-        # message_image_1 = [
-        #     TextSendMessage(text='菩提邦印度團隊從疫情開始，因為台灣法友的心願，團隊開始在菩提迦耶為大眾點燈，他們每天繞塔，每天供佛，每天點燈，只希望能夠將聖地的美好，傳達給每一位尊敬的法友，願我們能用這盞燈，祈求眾生能得遇佛法')
-        #     ,ImageSendMessage(
-        #     original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/v53kll5zrkqt6jmiuqda.jpg',
-        #     preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/v53kll5zrkqt6jmiuqda.jpg')
-        # ]
-        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦印度團隊從疫情開始，因為台灣法友的心願，團隊開始在菩提迦耶為大眾點燈，他們每天繞塔，每天供佛，每天點燈，只希望能夠將聖地的美好，傳達給每一位尊敬的法友，願我們能用這盞燈，祈求眾生能得遇佛法'))
+        message_image_1 = [
+            TextSendMessage(text='菩提邦印度團隊從疫情開始，因為台灣法友的心願，團隊開始在菩提迦耶為大眾點燈，他們每天繞塔，每天供佛，每天點燈，只希望能夠將聖地的美好，傳達給每一位尊敬的法友，願我們能用這盞燈，祈求眾生能得遇佛法')
+            ,ImageSendMessage(
+            original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687851427/map/sld93hfhsuv3mrw5jmht.jpg',
+            preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687851427/map/sld93hfhsuv3mrw5jmht.jpg')
+        ]
+        line_bot_api.reply_message(event.reply_token, message_image_1)
     
     elif "去年點燈紀錄" in msg:
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦印度團隊每天都會將點燈的紀錄上傳到臉書上，歡迎大家一同分享 https://www.facebook.com/budhiparty'))
@@ -304,32 +304,38 @@ def handle_postback(event):
     postback_data = event.postback.data
     if ('出團資訊' in postback_data):
         imagemap_message = ImagemapSendMessage(
-        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687717149/india',
+        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687851598/india',
         alt_text='索取出團資訊',
-        base_size=BaseSize(height=1040, width=1040),
+        base_size=BaseSize(height=1040, width=1707),
         actions=[
+            MessageImagemapAction(
+                text='我要報名免費線上講座',
+                area=ImagemapArea(
+                    x=218, y=288, width=603, height=98
+                )
+            ),
             MessageImagemapAction(
                 text='追尋釋尊足跡～經典印度朝聖13日',
                 area=ImagemapArea(
-                    x=26, y=167, width=472, height=343
+                    x=64, y=562, width=437, height=502
                 )
             ),
             MessageImagemapAction(
                 text='經典印度朝聖15日',
                 area=ImagemapArea(
-                    x=546, y=172, width=469, height=334
+                    x=540, y=564, width=429, height=501
                 )
             ),
             MessageImagemapAction(
                 text='印度佛陀八大聖地寺廟寺廟巡禮團19日',
                 area=ImagemapArea(
-                    x=23, y=553, width=479, height=340
+                    x=67, y=1121, width=431, height=500
                 )
             ),
             MessageImagemapAction(
-                text='獨立成團',
+                text='自行組團',
                 area=ImagemapArea(
-                    x=545, y=554, width=472, height=337
+                    x=538, y=1118, width=446, height=508
                 )
             )
         ]
@@ -341,32 +347,38 @@ def handle_follow(event):
     message_list = [
     TextSendMessage(text='菩提邦創辦人有15年的印度朝聖經驗，\n服務超過2000海內外法友前往印度朝聖，\n菩提邦印度朝聖的宗旨是：\n「用心做好每一團 利益所有朝聖者」\n所以，\n我們一台車45人座只收20位，\n我們一團20位法友，\n由領隊導遊導遊助理三人服務，\n為了讓所有參團的法友能夠有收穫，\n我們每個月都會舉辦兩場說明會，\n一場是「如何擁有一次殊勝難得的朝聖因緣」，\n另一場則是「聖地與經典」，\n希望透過前行的準備，讓每位法友都能法喜充滿。\n此外，我們為了提升領隊跟導遊的素質，創辦了菩提邦朝聖學院，三年來，菩提邦印度團隊們開始每天供佛、繞塔、經行、禪修，\n每天在大塔前排燈點燈祈福，\n並且學習了華嚴經法華經楞嚴經，\n以及佛陀的108則水平聖蹟，\n他們已經不只是導遊，更是聖地的守護者，\n我們期盼帶著大家一起回到印度，\n一起更美好的自己相遇'),
     ImagemapSendMessage(
-        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687717149/india',
+        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687851598/india',
         alt_text='索取出團資訊',
-        base_size=BaseSize(height=1040, width=1040),
+        base_size=BaseSize(height=1040, width=1707),
         actions=[
+            MessageImagemapAction(
+                text='我要報名免費線上講座',
+                area=ImagemapArea(
+                    x=218, y=288, width=603, height=98
+                )
+            ),
             MessageImagemapAction(
                 text='追尋釋尊足跡～經典印度朝聖13日',
                 area=ImagemapArea(
-                    x=26, y=167, width=472, height=343
+                    x=64, y=562, width=437, height=502
                 )
             ),
             MessageImagemapAction(
                 text='經典印度朝聖15日',
                 area=ImagemapArea(
-                    x=546, y=172, width=469, height=334
+                    x=540, y=564, width=429, height=501
                 )
             ),
             MessageImagemapAction(
                 text='印度佛陀八大聖地寺廟寺廟巡禮團19日',
                 area=ImagemapArea(
-                    x=23, y=553, width=479, height=340
+                    x=67, y=1121, width=431, height=500
                 )
             ),
             MessageImagemapAction(
-                text='獨立成團',
+                text='自行組團',
                 area=ImagemapArea(
-                    x=545, y=554, width=472, height=337
+                    x=538, y=1118, width=446, height=508
                 )
             )
         ]
