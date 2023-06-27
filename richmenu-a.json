@@ -9,10 +9,10 @@
     "areas": [
       {
         "bounds": {
-          "x": 36,
-          "y": 394,
-          "width": 830,
-          "height": 423
+          "x": 91,
+          "y": 68,
+          "width": 736,
+          "height": 736
         },
         "action": {
             "type": "richmenuswitch",
@@ -22,10 +22,10 @@
       },
       {
         "bounds": {
-          "x": 892,
-          "y": 397,
-          "width": 837,
-          "height": 430
+          "x": 902,
+          "y": 62,
+          "width": 755,
+          "height": 748
         },
         "action": {
             "type": "richmenuswitch",
@@ -35,10 +35,10 @@
       },
       {
         "bounds": {
-          "x": 36,
+          "x": 95,
           "y": 892,
-          "width": 843,
-          "height": 453
+          "width": 745,
+          "height": 742
         },
         "action": {
             "type": "richmenuswitch",
@@ -48,10 +48,10 @@
       },
       {
         "bounds": {
-          "x": 902,
-          "y": 902,
-          "width": 837,
-          "height": 440
+          "x": 906,
+          "y": 887,
+          "width": 754,
+          "height": 740
         },
         "action": {
             "type": "richmenuswitch",

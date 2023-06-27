@@ -9,10 +9,10 @@
     "areas": [
       {
         "bounds": {
-          "x": 30,
-          "y": 387,
-          "width": 843,
-          "height": 443
+          "x": 72,
+          "y": 338,
+          "width": 1135,
+          "height": 607
         },
         "action": {
           "type": "message",
@@ -21,10 +21,10 @@
       },
       {
         "bounds": {
-          "x": 892,
-          "y": 387,
-          "width": 837,
-          "height": 440
+          "x": 1302,
+          "y": 338,
+          "width": 1129,
+          "height": 600
         },
         "action": {
           "type": "message",
@@ -33,10 +33,10 @@
       },
       {
         "bounds": {
-          "x": 43,
-          "y": 889,
-          "width": 833,
-          "height": 456
+          "x": 75,
+          "y": 1020,
+          "width": 1132,
+          "height": 611
         },
         "action": {
           "type": "message",
@@ -45,10 +45,10 @@
       },
       {
         "bounds": {
-          "x": 906,
-          "y": 892,
-          "width": 833,
-          "height": 450
+          "x": 1306,
+          "y": 1017,
+          "width": 1125,
+          "height": 617
         },
         "action": {
           "type": "message",
@@ -57,15 +57,15 @@
       },
       {
         "bounds": {
-          "x": 643,
-          "y": 1358,
-          "width": 443,
-          "height": 194
+          "x": 79,
+          "y": 62,
+          "width": 695,
+          "height": 214
         },
         "action": {
             "type": "richmenuswitch",
             "richMenuAliasId": "richmenu-a",
-            "data": "更多功能"
+            "data": "回上一頁"
         }
       }
     ]

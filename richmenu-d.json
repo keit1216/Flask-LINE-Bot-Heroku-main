@@ -9,10 +9,10 @@
     "areas": [
       {
         "bounds": {
-          "x": 52,
-          "y": 394,
-          "width": 512,
-          "height": 429
+          "x": 75,
+          "y": 335,
+          "width": 1136,
+          "height": 710
         },
         "action": {
           "type": "message",
@@ -21,10 +21,10 @@
       },
       {
         "bounds": {
-          "x": 623,
-          "y": 381,
-          "width": 508,
-          "height": 449
+          "x": 1293,
+          "y": 335,
+          "width": 1125,
+          "height": 708
         },
         "action": {
           "type": "message",
@@ -33,23 +33,23 @@
       },
       {
         "bounds": {
-          "x": 1187,
-          "y": 387,
-          "width": 496,
-          "height": 440
+          "x": 75,
+          "y": 62,
+          "width": 699,
+          "height": 214
         },
         "action": {
             "type": "richmenuswitch",
             "richMenuAliasId": "richmenu-a",
-            "data": "更多功能"
+            "data": "回上一頁"
         }
       },
       {
         "bounds": {
-          "x": 26,
-          "y": 896,
-          "width": 1729,
-          "height": 449
+          "x": 62,
+          "y": 1145,
+          "width": 2382,
+          "height": 479
         },
         "action": {
           "type": "message",

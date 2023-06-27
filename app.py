@@ -276,13 +276,13 @@ def handle_message(event):
     
     elif "朝聖地圖正面" in msg:
         line_bot_api.reply_message(event.reply_token, ImageSendMessage(
-            original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/v53kll5zrkqt6jmiuqda.jpg',
-            preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/v53kll5zrkqt6jmiuqda.jpg'))
+            original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687850449/map/wkqpyzmh6gjjuhj3pcq6.jpg',
+            preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687850449/map/wkqpyzmh6gjjuhj3pcq6.jpg'))
 
     elif "朝聖地圖背面" in msg:
         line_bot_api.reply_message(event.reply_token, ImageSendMessage(
-            original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/rydk4fiiuohuiophe8a4.jpg',
-            preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687722478/map/rydk4fiiuohuiophe8a4.jpg'))
+            original_content_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687850449/map/kjpaxbztlveqlbzd2x5v.jpg',
+            preview_image_url = 'https://res.cloudinary.com/dljndh8rq/image/upload/v1687850449/map/kjpaxbztlveqlbzd2x5v.jpg'))
         
     elif "紙本朝聖地圖" in msg:
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='為了使更多法友了解印度，菩提邦製作了免費印度朝聖地圖提供大家索取，請填寫表單，我們會盡快為您處理\nhttps://forms.gle/JtLa9bSqTKFRpDwG6'))
@@ -296,6 +296,8 @@ def handle_message(event):
         # # Send To Line
         # reply = TextSendMessage(text=f"{get_message}")
         # line_bot_api.reply_message(event.reply_token, reply)
+    elif "線上回看" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='建構中...請稍候'))
 
 @handler.add(PostbackEvent)
 def handle_postback(event):
