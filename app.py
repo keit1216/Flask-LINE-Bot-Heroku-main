@@ -306,7 +306,7 @@ def handle_postback(event):
         imagemap_message = ImagemapSendMessage(
         base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687851598/india',
         alt_text='索取出團資訊',
-        base_size=BaseSize(height=1040, width=1707),
+        base_size=BaseSize(height=1707, width=1040),
         actions=[
             MessageImagemapAction(
                 text='我要報名免費線上講座',
@@ -349,7 +349,7 @@ def handle_follow(event):
     ImagemapSendMessage(
         base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1687851598/india',
         alt_text='索取出團資訊',
-        base_size=BaseSize(height=1040, width=1707),
+        base_size=BaseSize(height=1707, width=1040),
         actions=[
             MessageImagemapAction(
                 text='我要報名免費線上講座',
