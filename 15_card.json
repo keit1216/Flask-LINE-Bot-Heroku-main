@@ -1,0 +1,730 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "正念在印度",
+          "weight": "bold",
+          "size": "25px",
+          "color": "#252525"
+        },
+        {
+          "type": "text",
+          "text": "佛陀聖地朝聖15日",
+          "size": "25px",
+          "color": "#252525",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "感謝老法友的支持與愛護， 目前各團均已有人接受報名，報名狀況如下：",
+          "size": "14px",
+          "wrap": true,
+          "margin": "md",
+          "color": "#252525"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "sm",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "separator",
+              "margin": "sm",
+              "color": "#B9B9B9"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "日期",
+                  "size": "14px",
+                  "color": "#111111",
+                  "contents": [],
+                  "align": "start",
+                  "flex": 3
+                },
+                {
+                  "type": "text",
+                  "text": "報名人數",
+                  "size": "14px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 3
+                },
+                {
+                  "type": "text",
+                  "text": "成團情況",
+                  "size": "14px",
+                  "align": "center",
+                  "color": "#111111",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "sm",
+              "color": "#B9B9B9"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "9月17日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "position": "relative",
+                  "offsetEnd": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名17位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "flex": 4,
+                  "align": "start"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "10月1日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "position": "relative",
+                  "offsetEnd": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名19位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "flex": 4,
+                  "align": "start"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "size": "9px",
+                  "offsetTop": "1px",
+                  "margin": "xl"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "10月15日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名20位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "10月29日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名3位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "xxs",
+                  "offsetTop": "xs",
+                  "offsetStart": "1.5px"
+                },
+                {
+                  "type": "text",
+                  "text": "即將成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#1EC140",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "11月出發",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetEnd": "13.5px"
+                },
+                {
+                  "type": "text",
+                  "text": "已滿團",
+                  "size": "12px",
+                  "color": "#E10000",
+                  "align": "start",
+                  "flex": 4,
+                  "offsetEnd": "13px"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetEnd": "11px"
+                },
+                {
+                  "type": "text",
+                  "text": "已滿團",
+                  "align": "start",
+                  "color": "#E10000",
+                  "size": "12px",
+                  "flex": 2,
+                  "offsetEnd": "2px"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "12月3日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名16位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "12月17日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名20位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "12月31日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名20位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1月14日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名16位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "xxs",
+                  "offsetTop": "xs",
+                  "offsetStart": "1.5px"
+                },
+                {
+                  "type": "text",
+                  "text": "即將成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#1EC140",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1月28日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名20位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "position": "relative",
+                  "size": "xxs",
+                  "offsetTop": "xs",
+                  "offsetStart": "1.5px",
+                  "margin": "xl"
+                },
+                {
+                  "type": "text",
+                  "text": "即將成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#1EC140",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2月11日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名20位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2月25日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名20位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3月10日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "可報名19位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetTop": "1px",
+                  "flex": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "separator",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "第一階段早鳥優惠至六月底前，有意願的法友歡迎提早登記。",
+          "wrap": true,
+          "size": "14px",
+          "color": "#252525",
+          "offsetTop": "md"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "馬上報名",
+            "text": "我要報名印度佛陀八大聖地寺廟巡禮團19日"
+          },
+          "style": "primary",
+          "margin": "sm"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "諮詢朝聖專員",
+                "text": "我要諮詢朝聖專員"
+              },
+              "style": "secondary",
+              "margin": "none"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "行程連結",
+                "uri": "https://lihi3.cc/UGhJy"
+              },
+              "style": "secondary",
+              "margin": "sm"
+            }
+          ],
+          "margin": "sm"
+        }
+      ],
+      "margin": "sm"
+    },
+    "styles": {
+      "footer": {
+        "separator": false
+      }
+    }
+  }

@@ -1,0 +1,417 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "印度佛陀八大聖地寺廟巡禮團19日",
+          "weight": "bold",
+          "size": "25px",
+          "margin": "md",
+          "wrap": true,
+          "color": "#252525"
+        },
+        {
+          "type": "text",
+          "text": "感謝老法友的支持與愛護， 目前各團均已有人接受報名，報名狀況如下：",
+          "size": "14px",
+          "wrap": true,
+          "margin": "md",
+          "color": "#252525"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "sm",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "separator",
+              "margin": "sm",
+              "color": "#B9B9B9"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "日期",
+                  "size": "14px",
+                  "color": "#111111",
+                  "contents": [],
+                  "align": "start"
+                },
+                {
+                  "type": "text",
+                  "text": "報名人數",
+                  "size": "14px",
+                  "color": "#111111",
+                  "align": "start"
+                },
+                {
+                  "type": "text",
+                  "text": "成團情況",
+                  "size": "14px",
+                  "align": "center",
+                  "color": "#111111"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "sm",
+              "color": "#B9B9B9"
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "10月31日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 0
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "margin": "xl",
+                  "offsetTop": "xs",
+                  "offsetStart": "xxl"
+                },
+                {
+                  "type": "text",
+                  "text": "已滿團",
+                  "size": "12px",
+                  "color": "#E10000",
+                  "align": "center",
+                  "margin": "xl",
+                  "offsetEnd": "md"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetStart": "lg"
+                },
+                {
+                  "type": "text",
+                  "text": "已滿團",
+                  "align": "center",
+                  "color": "#E10000",
+                  "size": "12px"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "12月5日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 0
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "margin": "21.2px",
+                  "offsetTop": "xs",
+                  "offsetStart": "xxl"
+                },
+                {
+                  "type": "text",
+                  "text": "已報名9位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "center",
+                  "margin": "xl",
+                  "offsetStart": "1.5px"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetStart": "lg"
+                },
+                {
+                  "type": "text",
+                  "text": "已成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#1EC140"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1月2日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 0
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "margin": "28.4px",
+                  "offsetTop": "xs",
+                  "offsetStart": "xxl"
+                },
+                {
+                  "type": "text",
+                  "text": "已報名5位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "center",
+                  "margin": "xl",
+                  "offsetStart": "1.5px"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetStart": "lg"
+                },
+                {
+                  "type": "text",
+                  "text": "已成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#1EC140"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1月23日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 0
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "margin": "20.8px",
+                  "offsetTop": "xs",
+                  "offsetStart": "xxl"
+                },
+                {
+                  "type": "text",
+                  "text": "已報名5位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "center",
+                  "margin": "xl",
+                  "offsetStart": "1.5px"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetStart": "lg"
+                },
+                {
+                  "type": "text",
+                  "text": "已成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#1EC140"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2月13日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 0
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "margin": "20.8px",
+                  "offsetTop": "xs",
+                  "offsetStart": "xxl"
+                },
+                {
+                  "type": "text",
+                  "text": "已報名6位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "center",
+                  "margin": "xl",
+                  "offsetStart": "1.5px"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetStart": "lg"
+                },
+                {
+                  "type": "text",
+                  "text": "已成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#1EC140"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3月5日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 0
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "margin": "26px",
+                  "offsetTop": "xs",
+                  "offsetStart": "xxl"
+                },
+                {
+                  "type": "text",
+                  "text": "已報名2位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "center",
+                  "margin": "xl",
+                  "offsetStart": "1.5px"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "9px",
+                  "offsetTop": "1px",
+                  "offsetStart": "lg"
+                },
+                {
+                  "type": "text",
+                  "text": "尚未成團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#B9B9B9",
+                  "offsetStart": "6px",
+                  "offsetTop": "1px"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "separator",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "第一階段早鳥優惠至六月底前，有意願的法友歡迎提早登記。",
+          "wrap": true,
+          "size": "14px",
+          "color": "#252525",
+          "offsetTop": "md"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "message",
+            "label": "馬上報名",
+            "text": "我要報名印度佛陀八大聖地寺廟巡禮團19日"
+          },
+          "style": "primary",
+          "margin": "sm"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "message",
+                "label": "諮詢朝聖專員",
+                "text": "我要諮詢朝聖專員"
+              },
+              "style": "secondary",
+              "margin": "none"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "uri",
+                "label": "行程連結",
+                "uri": "https://lihi1.com/NIlvu"
+              },
+              "style": "secondary",
+              "margin": "sm"
+            }
+          ],
+          "margin": "sm"
+        }
+      ],
+      "margin": "sm"
+    },
+    "styles": {
+      "footer": {
+        "separator": false
+      }
+    }
+  }
