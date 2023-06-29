@@ -256,7 +256,7 @@ def handle_message(event):
 
     elif "15日" in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
-                alt_text = '正念在印度~佛陀聖地朝聖15日',
+                alt_text = '正念在印度 佛陀聖地朝聖15日',
                 contents = json.load(open('15_card.json', 'r', encoding='utf-8'))
             )
         )        
