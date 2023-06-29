@@ -247,20 +247,20 @@ def handle_message(event):
     #         )
     #     ]
     #     line_bot_api.reply_message(event.reply_token, message_list)
-    if "13日" in msg:
+    if "13日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
                 alt_text = '追尋釋尊足跡~經典印度朝聖13日',
                 contents = json.load(open('13_card.json', 'r', encoding='utf-8'))
             )
         )
 
-    elif "15日" in msg:
+    elif "15日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
                 alt_text = '正念在印度 佛陀聖地朝聖15日',
                 contents = json.load(open('15_card.json', 'r', encoding='utf-8'))
             )
         )        
-    elif "19日" in msg:
+    elif "19日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
                 alt_text = '印度佛陀八大聖地寺廟巡禮團19日',
                 contents = json.load(open('19_card.json', 'r', encoding='utf-8'))
