@@ -312,6 +312,12 @@ def handle_message(event):
     elif "線上回看" in msg:
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='建構中...請稍候'))
 
+    elif "我要諮詢朝聖專員" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='您好，由於近期詢問的人數較多。歡迎留下您的疑問，專員稍等將會回覆您的問題！感恩(big smile)'))
+    
+    elif "我要報名" in msg:
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='好的，請問您希望報名的日期、人數？'))
+
 @handler.add(PostbackEvent)
 def handle_postback(event):
     postback_data = event.postback.data

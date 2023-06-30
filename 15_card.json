@@ -94,28 +94,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名17位",
+                  "text": "尚餘 17 位",
                   "size": "12px",
                   "color": "#111111",
                   "flex": 4,
-                  "align": "start"
+                  "align": "start",
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "9px",
-                  "offsetTop": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "尚未成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#B9B9B9",
+                  "color": "#111111",
                   "offsetTop": "1px",
-                  "flex": 3
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
@@ -140,18 +142,19 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名19位",
+                  "text": "尚餘 14 位",
                   "size": "12px",
                   "color": "#111111",
                   "flex": 4,
-                  "align": "start"
+                  "align": "start",
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
-                  "size": "9px",
-                  "offsetTop": "1px",
+                  "size": "11px",
+                  "offsetTop": "2px",
                   "margin": "xl"
                 },
                 {
@@ -185,19 +188,20 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名20位",
+                  "text": "尚餘 17 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "9px",
-                  "offsetTop": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
@@ -230,20 +234,21 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名3位",
+                  "text": "尚餘 4 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/c3ju20kldfhgqgoq2ppn.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "xxs",
+                  "size": "11px",
                   "offsetTop": "xs",
-                  "offsetStart": "1.5px"
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "text",
@@ -281,7 +286,7 @@
                   "color": "#E10000",
                   "align": "start",
                   "flex": 4,
-                  "offsetEnd": "13px"
+                  "offsetEnd": "12px"
                 },
                 {
                   "type": "icon",
@@ -298,7 +303,7 @@
                   "color": "#E10000",
                   "size": "12px",
                   "flex": 2,
-                  "offsetEnd": "2px"
+                  "offsetEnd": "1.5px"
                 }
               ]
             },
@@ -322,28 +327,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名16位",
+                  "text": "尚餘 9 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "9px",
-                  "offsetTop": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "尚未成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#B9B9B9",
+                  "color": "#111111",
                   "offsetTop": "1px",
-                  "flex": 3
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
@@ -367,28 +374,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名20位",
+                  "text": "尚餘 15 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "9px",
-                  "offsetTop": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "尚未成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#B9B9B9",
+                  "color": "#111111",
                   "offsetTop": "1px",
-                  "flex": 3
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
@@ -412,28 +421,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名20位",
+                  "text": "尚餘 15 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "9px",
-                  "offsetTop": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "尚未成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#B9B9B9",
+                  "color": "#111111",
                   "offsetTop": "1px",
-                  "flex": 3
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
@@ -457,28 +468,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名16位",
+                  "text": "尚餘 16 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "xxs",
-                  "offsetTop": "xs",
-                  "offsetStart": "1.5px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "即將成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#1EC140",
-                  "flex": 3
+                  "color": "#111111",
+                  "flex": 3,
+                  "offsetTop": "1px",
+                  "offsetStart": "1.5px"
                 }
               ]
             },
@@ -502,28 +515,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名20位",
+                  "text": "尚餘 13 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/jzkyf6nl4trz8avqmiwu.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
-                  "size": "xxs",
-                  "offsetTop": "xs",
-                  "offsetStart": "1.5px",
+                  "size": "11px",
+                  "offsetTop": "2px",
                   "margin": "xl"
                 },
                 {
                   "type": "text",
-                  "text": "即將成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#1EC140",
-                  "flex": 3
+                  "color": "#111111",
+                  "flex": 3,
+                  "offsetStart": "1.5px",
+                  "offsetTop": "1px"
                 }
               ]
             },
@@ -547,28 +562,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名20位",
+                  "text": "尚餘 17 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "9px",
-                  "offsetTop": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "尚未成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#B9B9B9",
+                  "color": "#111111",
                   "offsetTop": "1px",
-                  "flex": 3
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
@@ -592,28 +609,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名20位",
+                  "text": "尚餘 15 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "9px",
-                  "offsetTop": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "尚未成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#B9B9B9",
+                  "color": "#111111",
                   "offsetTop": "1px",
-                  "flex": 3
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
@@ -637,28 +656,30 @@
                 },
                 {
                   "type": "text",
-                  "text": "可報名19位",
+                  "text": "尚餘 18 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
-                  "flex": 4
+                  "flex": 4,
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/bc5euowlqsn1qwx0eusr.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
-                  "size": "9px",
-                  "offsetTop": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "尚未成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#B9B9B9",
+                  "color": "#111111",
                   "offsetTop": "1px",
-                  "flex": 3
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             }
