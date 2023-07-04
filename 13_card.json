@@ -646,14 +646,6 @@
         {
           "type": "separator",
           "margin": "md"
-        },
-        {
-          "type": "text",
-          "text": "第一階段早鳥優惠至六月底前，有意願的法友歡迎提早登記。",
-          "wrap": true,
-          "size": "14px",
-          "color": "#252525",
-          "offsetTop": "md"
         }
       ]
     },
