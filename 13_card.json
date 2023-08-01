@@ -89,7 +89,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 10 位",
+                  "text": "尚餘 11 位",
                   "size": "12px",
                   "color": "#111111",
                   "flex": 4,
@@ -136,7 +136,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 8 位",
+                  "text": "尚餘 13 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -183,7 +183,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 7 位",
+                  "text": "尚餘 14 位",
                   "size": "12px",
                   "color": "#111111",
                   "flex": 4,
@@ -277,7 +277,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "僅剩 6 位",
+                  "text": "僅剩 4 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -295,7 +295,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "已成團",
+                  "text": "即將滿團",
                   "align": "center",
                   "size": "12px",
                   "color": "#1EC140",
