@@ -154,11 +154,13 @@
                 },
                 {
                   "type": "text",
-                  "text": "已成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#1EC140",
-                  "flex": 3
+                  "color": "#111111",
+                  "offsetTop": "1px",
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
@@ -201,12 +203,13 @@
                 },
                 {
                   "type": "text",
-                  "text": "已成團",
+                  "text": "熱烈報名中",
                   "align": "center",
                   "size": "12px",
-                  "color": "#1EC140",
+                  "color": "#111111",
                   "offsetTop": "1px",
-                  "flex": 3
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
