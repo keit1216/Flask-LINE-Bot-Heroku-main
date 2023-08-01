@@ -145,12 +145,11 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/c3ju20kldfhgqgoq2ppn.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
                   "margin": "xl",
                   "size": "11px",
-                  "offsetTop": "xs",
-                  "offsetStart": "1px"
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
@@ -194,12 +193,11 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/c3ju20kldfhgqgoq2ppn.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
-                  "size": "11px",
-                  "offsetTop": "1px",
                   "margin": "xl",
-                  "offsetStart": "1px"
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
