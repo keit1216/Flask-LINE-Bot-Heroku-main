@@ -287,7 +287,7 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/c3ju20kldfhgqgoq2ppn.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
                   "margin": "xl",
                   "size": "11px",
@@ -299,7 +299,7 @@
                   "text": "排候補",
                   "align": "center",
                   "size": "12px",
-                  "color": "#1EC140",
+                  "color": "#E10000",
                   "flex": 3
                 }
               ]
@@ -342,7 +342,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "已滿團",
+                  "text": "排候補",
                   "align": "start",
                   "color": "#E10000",
                   "size": "12px",
