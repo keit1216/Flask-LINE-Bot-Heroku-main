@@ -283,8 +283,8 @@
                   "size": "12px",
                   "color": "#E10000",
                   "align": "start",
-                  "flex": 4,
-                  "offsetStart": "1px"
+                  "offsetEnd": "12px",
+                  "flex": 4
                 },
                 {
                   "type": "icon",

@@ -139,7 +139,7 @@
                   "size": "12px",
                   "color": "#E10000",
                   "align": "start",
-                  "offsetStart": "1px",
+                  "offsetEnd": "12px",
                   "flex": 4
                 },
                 {
