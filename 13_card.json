@@ -271,7 +271,7 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
                   "size": "xs",
                   "offsetTop": "xs"
@@ -280,7 +280,7 @@
                   "type": "text",
                   "text": "已滿團",
                   "size": "12px",
-                  "color": "#111111",
+                  "color": "#E10000",
                   "align": "start",
                   "flex": 4,
                   "offsetStart": "1px"
