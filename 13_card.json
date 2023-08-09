@@ -278,7 +278,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "僅剩 4 位",
+                  "text": "已滿團",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -296,7 +296,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "即將滿團",
+                  "text": "排候補",
                   "align": "center",
                   "size": "12px",
                   "color": "#1EC140",
