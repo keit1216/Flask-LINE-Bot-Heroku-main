@@ -296,11 +296,12 @@
                 },
                 {
                   "type": "text",
-                  "text": "排候補",
-                  "align": "center",
-                  "size": "12px",
+                  "text": "已滿團",
+                  "align": "start",
                   "color": "#E10000",
-                  "flex": 3
+                  "size": "12px",
+                  "flex": 2,
+                  "offsetEnd": "1.5px"
                 }
               ]
             },
@@ -342,7 +343,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "排候補",
+                  "text": "已滿團",
                   "align": "start",
                   "color": "#E10000",
                   "size": "12px",

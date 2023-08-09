@@ -89,7 +89,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "排候補",
+                  "text": "已滿團",
                   "size": "12px",
                   "color": "#E10000",
                   "align": "start",
@@ -134,7 +134,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "排候補",
+                  "text": "已滿團",
                   "size": "12px",
                   "color": "#E10000",
                   "align": "start",
@@ -152,13 +152,11 @@
                 },
                 {
                   "type": "text",
-                  "text": "排候補",
-                  "align": "center",
+                  "text": "已滿團",
+                  "align": "start",
+                  "color": "#E10000",
                   "size": "12px",
-                  "color": "#111111",
-                  "flex": 3,
-                  "offsetTop": "1px",
-                  "offsetStart": "1.5px"
+                  "flex": 2
                 }
               ]
             },
