@@ -274,7 +274,8 @@
                   "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
                   "size": "xs",
-                  "offsetTop": "xs"
+                  "offsetTop": "xs",
+                  "offsetEnd": "13.5px"
                 },
                 {
                   "type": "text",
@@ -289,14 +290,13 @@
                   "type": "icon",
                   "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
-                  "margin": "xl",
-                  "size": "11px",
+                  "size": "xs",
                   "offsetTop": "xs",
-                  "offsetStart": "1px"
+                  "offsetEnd": "11.5px"
                 },
                 {
                   "type": "text",
-                  "text": "已滿團",
+                  "text": "排候補",
                   "align": "start",
                   "color": "#E10000",
                   "size": "12px",
@@ -343,7 +343,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "已滿團",
+                  "text": "排候補",
                   "align": "start",
                   "color": "#E10000",
                   "size": "12px",
