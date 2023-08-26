@@ -89,7 +89,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "僅剩 7 位",
+                  "text": "最後1位(男)",
                   "size": "12px",
                   "color": "#111111",
                   "flex": 4,
@@ -106,7 +106,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "熱烈報名中",
+                  "text": "報名倒數",
                   "align": "center",
                   "size": "12px",
                   "color": "#111111",
@@ -271,37 +271,38 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
-                  "position": "relative",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
                   "size": "xs",
                   "offsetTop": "xs",
-                  "offsetEnd": "13.5px"
+                  "position": "relative",
+                  "offsetEnd": "none"
                 },
                 {
                   "type": "text",
-                  "text": "已滿團",
+                  "text": "最後1位(女)",
                   "size": "12px",
-                  "color": "#E10000",
+                  "color": "#111111",
+                  "flex": 4,
                   "align": "start",
-                  "offsetEnd": "12px",
-                  "flex": 4
+                  "offsetStart": "1px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
                   "position": "relative",
-                  "size": "xs",
-                  "offsetTop": "xs",
-                  "offsetEnd": "11.5px"
+                  "margin": "xl",
+                  "size": "11px",
+                  "offsetTop": "2px"
                 },
                 {
                   "type": "text",
-                  "text": "排候補",
-                  "align": "start",
-                  "color": "#E10000",
+                  "text": "報名倒數",
+                  "align": "center",
                   "size": "12px",
-                  "flex": 2,
-                  "offsetEnd": "1.5px"
+                  "color": "#111111",
+                  "offsetTop": "1px",
+                  "flex": 3,
+                  "offsetStart": "1.5px"
                 }
               ]
             },
