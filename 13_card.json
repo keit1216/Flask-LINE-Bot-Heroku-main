@@ -501,6 +501,54 @@
               "contents": [
                 {
                   "type": "text",
+                  "text": "1月23日",
+                  "size": "12px",
+                  "color": "#252525",
+                  "flex": 4
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "position": "relative",
+                  "size": "xs",
+                  "offsetTop": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "尚餘 18 位",
+                  "size": "12px",
+                  "color": "#111111",
+                  "align": "start",
+                  "flex": 4,
+                  "offsetStart": "1px"
+                },
+                {
+                  "type": "icon",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
+                  "position": "relative",
+                  "margin": "xl",
+                  "size": "11px",
+                  "offsetTop": "2px",
+                  "offsetStart": "1px"
+                },
+                {
+                  "type": "text",
+                  "text": "寒假首發團",
+                  "align": "center",
+                  "size": "12px",
+                  "color": "#111111",
+                  "offsetTop": "1px",
+                  "flex": 3,
+                  "offsetStart": "1.5px"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "contents": [
+                {
+                  "type": "text",
                   "text": "1月30日",
                   "size": "12px",
                   "color": "#252525",
