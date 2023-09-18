@@ -310,7 +310,7 @@ def handle_message(event):
         # reply = TextSendMessage(text=f"{get_message}")
         # line_bot_api.reply_message(event.reply_token, reply)
     elif "線上回看" in msg:
-        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='建構中...請稍候'))
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='📣菩提邦印度朝聖講座線上看：\n如何擁有一次殊勝難得的朝聖因緣\nhttps://youtu.be/lEj6AKG73o8'))
 
     elif "我要諮詢朝聖專員" in msg:
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='您好，由於近期詢問的人數較多。歡迎留下您的疑問，專員稍等將會回覆您的問題！感恩'))
