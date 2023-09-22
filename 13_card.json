@@ -323,7 +323,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 18 位",
+                  "text": "尚餘 9 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -341,7 +341,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "新開加場",
+                  "text": "新開加團",
                   "align": "center",
                   "size": "12px",
                   "color": "#111111",
