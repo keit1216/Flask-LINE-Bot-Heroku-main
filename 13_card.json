@@ -513,7 +513,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 18 位",
+                  "text": "尚餘 9 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -561,7 +561,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 9 位",
+                  "text": "尚餘 6 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -579,7 +579,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "熱烈報名中",
+                  "text": "即將滿團",
                   "align": "center",
                   "size": "12px",
                   "color": "#111111",
