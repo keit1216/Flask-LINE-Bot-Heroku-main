@@ -285,7 +285,7 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦印度團隊每天都會將點燈的紀錄上傳到臉書上，歡迎大家一同分享 https://www.facebook.com/budhiparty'))
     
     elif "我要點燈" in msg:
-        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='兔年點燈，菩提邦印度團隊會在2023年下半年每天在菩提迦耶為您點一盞燈，為您繞塔供佛祈福，想點燈者請填寫表單：\nhttps://forms.gle/3hRTEYK8mtq2jYvX9'))
+        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='【我想募集1200盞燈 出一本關於佛陀關於聖地的書】\n活動連結：https://forms.gle/Yg3PAjoMR3htxsHQ9\n\n阿彌陀佛\n各位尊敬的法師及法友，好久不見\n菩提邦在今年初開始慢慢回到印度聖地\n睽違了三年\n見到了 這三年只能在線上見面的印度團隊\n內心真的百感交集\n最大的歡喜，就是看到這群印度守護者的進步\n\n當我在四個聖地跟著團友一起點\n佛陀的四相成道燈圖\n當時，我就萌生了一個想法\n我想出一本書\n一本用燈來說出佛陀的一生、介紹聖地、關於這群努力孩子的書\n\n這半年，我跟團隊反覆確認他們做出這個燈的能力\n這半年，我也開始醞釀做這本書的內容\n我也開始去找我的老師 希望能把老師35年來的精髓放進這本書中\n我也開始去找法師，希望由法師針對每一則故事做開示，讓大家在閱讀時，做到聞思修\n\n認識我的朋友都知道，我是把執行『長遊行經』當作我個人下半生的志業，我真心希望能做一本書去利益朝聖者，利益想更認識佛陀的人，希望讓每一位跟我們有緣的人都能對佛、對聖地做到「歡喜欲見、憶念不忘、生戀慕心」\n\n我會將我這15年來帶75團的許多小故事放進書中\n我會將許多過去的照片放進這本書中\n我會將108則佛陀故事做成燈圖放進這本書中\n我會恭請法師開示並錄製成電子書利益更多人\n\n歡迎一起來參加\n活動連結：https://forms.gle/Yg3PAjoMR3htxsHQ9'))
     
     elif "朝聖地圖正面" in msg:
         line_bot_api.reply_message(event.reply_token, ImageSendMessage(
