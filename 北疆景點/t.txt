@@ -1,0 +1,2 @@
+    endpoint = "https://roc.cognitiveservices.azure.com/"  # 替換為您的 Azure Form Recognizer 服務終結點
+    key = "21c7ce580aa24bbb87d8372d09b20494"  # 替換為您的 Azure Form Recognizer 服務金鑰
