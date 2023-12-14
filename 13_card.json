@@ -268,38 +268,37 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
                   "size": "xs",
-                  "offsetTop": "xs"
+                  "offsetTop": "xs",
+                  "offsetEnd": "13.5px"
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 6 位",
+                  "text": "已截團",
                   "size": "12px",
-                  "color": "#111111",
+                  "color": "#E10000",
                   "align": "start",
                   "flex": 4,
-                  "offsetStart": "1px"
+                  "offsetEnd": "12px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
-                  "margin": "xl",
-                  "size": "11px",
-                  "offsetTop": "2px",
-                  "offsetStart": "1px"
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetEnd": "11px"
                 },
                 {
                   "type": "text",
-                  "text": "即將滿團",
-                  "align": "center",
+                  "text": "已截團",
+                  "align": "start",
+                  "color": "#E10000",
                   "size": "12px",
-                  "color": "#111111",
-                  "offsetTop": "1px",
-                  "flex": 3,
-                  "offsetStart": "1.5px"
+                  "flex": 2,
+                  "offsetEnd": "1.5px"
                 }
               ]
             },
@@ -363,38 +362,37 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
                   "size": "xs",
-                  "offsetTop": "xs"
+                  "offsetTop": "xs",
+                  "offsetEnd": "13.5px"
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 12 位",
+                  "text": "已截團",
                   "size": "12px",
-                  "color": "#111111",
+                  "color": "#E10000",
                   "align": "start",
                   "flex": 4,
-                  "offsetStart": "1px"
+                  "offsetEnd": "12px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
-                  "margin": "xl",
-                  "size": "11px",
-                  "offsetTop": "2px",
-                  "offsetStart": "1px"
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetEnd": "11px"
                 },
                 {
                   "type": "text",
-                  "text": "熱烈報名中",
-                  "align": "center",
+                  "text": "已截團",
+                  "align": "start",
+                  "color": "#E10000",
                   "size": "12px",
-                  "color": "#111111",
-                  "offsetTop": "1px",
-                  "flex": 3,
-                  "offsetStart": "1.5px"
+                  "flex": 2,
+                  "offsetEnd": "1.5px"
                 }
               ]
             },
@@ -418,7 +416,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 10 位",
+                  "text": "尚餘 1 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -436,7 +434,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "熱烈報名中",
+                  "text": "即將滿團",
                   "align": "center",
                   "size": "12px",
                   "color": "#111111",
@@ -465,7 +463,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 9 位",
+                  "text": "尚餘 6 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -483,7 +481,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "寒假首發團",
+                  "text": "即將滿團",
                   "align": "center",
                   "size": "12px",
                   "color": "#111111",
@@ -513,7 +511,7 @@
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 2 位",
+                  "text": "尚餘 1 位",
                   "size": "12px",
                   "color": "#111111",
                   "align": "start",
@@ -554,37 +552,37 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
                   "size": "xs",
-                  "offsetTop": "xs"
+                  "offsetTop": "xs",
+                  "offsetEnd": "13.5px"
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 7 位",
+                  "text": "已截團",
                   "size": "12px",
-                  "color": "#111111",
+                  "color": "#E10000",
                   "align": "start",
                   "flex": 4,
-                  "offsetStart": "1px"
+                  "offsetEnd": "12px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
-                  "margin": "xl",
-                  "size": "11px",
-                  "offsetTop": "2px",
-                  "offsetStart": "1px"
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetEnd": "11px"
                 },
                 {
                   "type": "text",
-                  "text": "熱烈報名中",
-                  "align": "center",
+                  "text": "已截團",
+                  "align": "start",
+                  "color": "#E10000",
                   "size": "12px",
-                  "color": "#111111",
-                  "flex": 3,
-                  "offsetStart": "1.5px"
+                  "flex": 2,
+                  "offsetEnd": "1.5px"
                 }
               ]
             },
@@ -649,41 +647,88 @@
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
                   "size": "xs",
-                  "offsetTop": "xs"
+                  "offsetTop": "xs",
+                  "offsetEnd": "13.5px"
                 },
                 {
                   "type": "text",
-                  "text": "尚餘 6 位",
+                  "text": "已截團",
                   "size": "12px",
-                  "color": "#111111",
+                  "color": "#E10000",
                   "align": "start",
                   "flex": 4,
-                  "offsetStart": "1px"
+                  "offsetEnd": "12px"
                 },
                 {
                   "type": "icon",
-                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
+                  "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/eaxinjmzgtilpz60vchb.png",
                   "position": "relative",
-                  "margin": "xl",
-                  "size": "11px",
-                  "offsetTop": "2px",
-                  "offsetStart": "1px"
+                  "size": "xs",
+                  "offsetTop": "xs",
+                  "offsetEnd": "11px"
                 },
                 {
                   "type": "text",
-                  "text": "即將滿團",
-                  "align": "center",
+                  "text": "已截團",
+                  "align": "start",
+                  "color": "#E10000",
                   "size": "12px",
-                  "color": "#111111",
-                  "offsetTop": "1px",
-                  "flex": 3,
-                  "offsetStart": "1.5px"
+                  "flex": 2,
+                  "offsetEnd": "1.5px"
                 }
               ]
             },
+            {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "3月12日",
+                "size": "12px",
+                "color": "#252525",
+                "flex": 4
+              },
+              {
+                "type": "icon",
+                "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688023588/svg/zqkd93yhuzdkafzkmqvo.png",
+                "position": "relative",
+                "size": "xs",
+                "offsetTop": "xs"
+              },
+              {
+                "type": "text",
+                "text": "尚餘 12 位",
+                "size": "12px",
+                "color": "#111111",
+                "align": "start",
+                "flex": 4,
+                "offsetStart": "1px"
+              },
+              {
+                "type": "icon",
+                "url": "https://res.cloudinary.com/dljndh8rq/image/upload/v1688110232/icon/ogeoneagtgweehnvdo13.png",
+                "position": "relative",
+                "margin": "xl",
+                "size": "11px",
+                "offsetTop": "2px",
+                "offsetStart": "1px"
+              },
+              {
+                "type": "text",
+                "text": "新加開團",
+                "align": "center",
+                "size": "12px",
+                "color": "#111111",
+                "offsetTop": "1px",
+                "flex": 3,
+                "offsetStart": "1.5px"
+              }
+            ]
+          },
             {
               "type": "box",
               "layout": "vertical",
