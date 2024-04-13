@@ -247,26 +247,26 @@ def handle_message(event):
     #         )
     #     ]
     #     line_bot_api.reply_message(event.reply_token, message_list)
-    if "一起回家吧！經典印度朝聖14日" in msg and "我要報名" not in msg:
+    if "朝聖14日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
                 alt_text = '一起回家吧！經典印度朝聖14日',
                 contents = json.load(open('14_card.json', 'r', encoding='utf-8'))
             )
         )
 
-    elif "法師領團佛陀12大聖地朝聖15日" in msg and "我要報名" not in msg:
+    elif "聖地朝聖15日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
                 alt_text = '法師領團佛陀12大聖地朝聖15日',
                 contents = json.load(open('15_card.json', 'r', encoding='utf-8'))
             )
         )        
-    elif "印度佛陀八大聖地寺廟巡禮交流19日" in msg and "我要報名" not in msg:
+    elif "寺廟巡禮交流19日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
                 alt_text = '印度佛陀八大聖地寺廟巡禮交流19日',
                 contents = json.load(open('19_card.json', 'r', encoding='utf-8'))
             )
         )
-    elif "印度佛陀八大聖地朝聖12日" in msg:
+    elif "12日" in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
                 alt_text = '印度佛陀八大聖地朝聖12日',
                 contents = json.load(open('13_card.json', 'r', encoding='utf-8'))
