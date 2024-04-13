@@ -1,72 +1,59 @@
 {
-    "size": {
-      "width": 2500,
-      "height": 1686
-    },
-    "selected": false,
-    "name": "richmenu-b",
-    "chatBarText": "查看更多資訊",
-    "areas": [
-      {
-        "bounds": {
-          "x": 72,
-          "y": 338,
-          "width": 1135,
-          "height": 607
-        },
-        "action": {
-          "type": "message",
-          "text": "追尋釋尊足跡～經典印度朝聖13日"
-        }
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "richmenu-b",
+  "chatBarText": "查看更多資訊",
+  "areas": [
+    {
+      "bounds": {
+        "x": 72,
+        "y": 328,
+        "width": 1135,
+        "height": 617
       },
-      {
-        "bounds": {
-          "x": 1302,
-          "y": 338,
-          "width": 1129,
-          "height": 600
-        },
-        "action": {
-          "type": "message",
-          "text": "經典印度朝聖15日"
-        }
-      },
-      {
-        "bounds": {
-          "x": 75,
-          "y": 1020,
-          "width": 1132,
-          "height": 611
-        },
-        "action": {
-          "type": "message",
-          "text": "印度佛陀八大聖地寺廟寺廟巡禮團19日"
-        }
-      },
-      {
-        "bounds": {
-          "x": 1306,
-          "y": 1017,
-          "width": 1125,
-          "height": 617
-        },
-        "action": {
-          "type": "message",
-          "text": "自行組團"
-        }
-      },
-      {
-        "bounds": {
-          "x": 79,
-          "y": 62,
-          "width": 695,
-          "height": 214
-        },
-        "action": {
-            "type": "richmenuswitch",
-            "richMenuAliasId": "richmenu-a",
-            "data": "回上一頁"
-        }
+      "action": {
+        "type": "message",
+        "text": "印度佛陀八大聖地朝聖12日"
       }
-    ]
-  }
+    },
+    {
+      "bounds": {
+        "x": 1302,
+        "y": 338,
+        "width": 1126,
+        "height": 604
+      },
+      "action": {
+        "type": "message",
+        "text": "一起回家吧！經典印度朝聖14日"
+      }
+    },
+    {
+      "bounds": {
+        "x": 72,
+        "y": 1024,
+        "width": 1132,
+        "height": 610
+      },
+      "action": {
+        "type": "message",
+        "text": "法師領團佛陀12大聖地朝聖15日"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1299,
+        "y": 1020,
+        "width": 1135,
+        "height": 614
+      },
+      "action": {
+        "type": "message",
+        "text": "印度佛陀八大聖地寺廟巡禮交流19日"
+      }
+    }
+  ]
+}

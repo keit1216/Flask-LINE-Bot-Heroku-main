@@ -247,28 +247,31 @@ def handle_message(event):
     #         )
     #     ]
     #     line_bot_api.reply_message(event.reply_token, message_list)
-    if "經典印度朝聖13日" in msg and "我要報名" not in msg:
+    if "一起回家吧！經典印度朝聖14日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
-                alt_text = '追尋釋尊足跡~經典印度朝聖13日',
-                contents = json.load(open('13_card.json', 'r', encoding='utf-8'))
+                alt_text = '一起回家吧！經典印度朝聖14日',
+                contents = json.load(open('14_card.json', 'r', encoding='utf-8'))
             )
         )
 
-    elif "經典印度朝聖15日" in msg and "我要報名" not in msg:
+    elif "法師領團佛陀12大聖地朝聖15日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
-                alt_text = '正念在印度 佛陀聖地朝聖15日',
+                alt_text = '法師領團佛陀12大聖地朝聖15日',
                 contents = json.load(open('15_card.json', 'r', encoding='utf-8'))
             )
         )        
-    elif "寺廟寺廟巡禮團19日" in msg and "我要報名" not in msg:
+    elif "印度佛陀八大聖地寺廟巡禮交流19日" in msg and "我要報名" not in msg:
         line_bot_api.reply_message(event.reply_token,FlexSendMessage(
-                alt_text = '印度佛陀八大聖地寺廟巡禮團19日',
+                alt_text = '印度佛陀八大聖地寺廟巡禮交流19日',
                 contents = json.load(open('19_card.json', 'r', encoding='utf-8'))
             )
         )
-    elif "自行組團" in msg:
-        line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦有15年的印度朝聖經驗，如果您的人數\n⭐4-9人：自行出遊，量身訂作，配導遊\n⭐10人：可以自組團，配領隊、導遊\n⭐超過15人，可以包團，配領隊、導遊、導遊助理\n\n菩提邦可以按照您的天數、預算為您量身訂做最適合您的朝聖行程、舉辦朝聖講座，歡迎留言給我們，或是來電 02-77304119，我們會盡快與您聯繫🙏'))
-
+    elif "印度佛陀八大聖地朝聖12日" in msg:
+        line_bot_api.reply_message(event.reply_token,FlexSendMessage(
+                alt_text = '印度佛陀八大聖地朝聖12日',
+                contents = json.load(open('13_card.json', 'r', encoding='utf-8'))
+            )
+        )
     elif "獨立成團" in msg:
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='菩提邦有15年的印度朝聖經驗，如果您的人數\n⭐4-9人：自行出遊，量身訂作，配導遊\n⭐10人：可以自組團，配領隊、導遊\n⭐超過15人，可以包團，配領隊、導遊、導遊助理\n\n菩提邦可以按照您的天數、預算為您量身訂做最適合您的朝聖行程、舉辦朝聖講座，歡迎留言給我們，或是來電 02-77304119，我們會盡快與您聯繫🙏'))
 
@@ -318,89 +321,89 @@ def handle_message(event):
     elif "我要報名" in msg:
         line_bot_api.reply_message(event.reply_token, TextSendMessage(text='好的，請問您希望報名的日期、人數？'))
 
-@handler.add(PostbackEvent)
-def handle_postback(event):
-    postback_data = event.postback.data
-    if ('出團資訊' in postback_data):
-        imagemap_message = ImagemapSendMessage(
-        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1688044198/india',
-        alt_text='索取出團資訊',
-        base_size=BaseSize(height=1707, width=1040),
-        actions=[
-            MessageImagemapAction(
-                text='我要報名免費線上講座',
-                area=ImagemapArea(
-                    x=218, y=288, width=603, height=98
-                )
-            ),
-            MessageImagemapAction(
-                text='追尋釋尊足跡～經典印度朝聖13日',
-                area=ImagemapArea(
-                    x=64, y=562, width=437, height=502
-                )
-            ),
-            MessageImagemapAction(
-                text='經典印度朝聖15日',
-                area=ImagemapArea(
-                    x=540, y=564, width=429, height=501
-                )
-            ),
-            MessageImagemapAction(
-                text='印度佛陀八大聖地寺廟寺廟巡禮團19日',
-                area=ImagemapArea(
-                    x=67, y=1121, width=431, height=500
-                )
-            ),
-            MessageImagemapAction(
-                text='自行組團',
-                area=ImagemapArea(
-                    x=538, y=1118, width=446, height=508
-                )
-            )
-        ]
-    )
-    line_bot_api.reply_message(event.reply_token, imagemap_message)
+# @handler.add(PostbackEvent)
+# def handle_postback(event):
+#     postback_data = event.postback.data
+#     if ('出團資訊' in postback_data):
+#         imagemap_message = ImagemapSendMessage(
+#         base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1688044198/india',
+#         alt_text='索取出團資訊',
+#         base_size=BaseSize(height=1707, width=1040),
+#         actions=[
+#             MessageImagemapAction(
+#                 text='我要報名免費線上講座',
+#                 area=ImagemapArea(
+#                     x=218, y=288, width=603, height=98
+#                 )
+#             ),
+#             MessageImagemapAction(
+#                 text='追尋釋尊足跡～經典印度朝聖13日',
+#                 area=ImagemapArea(
+#                     x=64, y=562, width=437, height=502
+#                 )
+#             ),
+#             MessageImagemapAction(
+#                 text='經典印度朝聖15日',
+#                 area=ImagemapArea(
+#                     x=540, y=564, width=429, height=501
+#                 )
+#             ),
+#             MessageImagemapAction(
+#                 text='印度佛陀八大聖地寺廟寺廟巡禮團19日',
+#                 area=ImagemapArea(
+#                     x=67, y=1121, width=431, height=500
+#                 )
+#             ),
+#             MessageImagemapAction(
+#                 text='自行組團',
+#                 area=ImagemapArea(
+#                     x=538, y=1118, width=446, height=508
+#                 )
+#             )
+#         ]
+#     )
+#     line_bot_api.reply_message(event.reply_token, imagemap_message)
 
-@handler.add(FollowEvent)
-def handle_follow(event):
-    message_list = [
-    TextSendMessage(text='菩提邦創辦人有15年的印度朝聖經驗，\n服務超過2000海內外法友前往印度朝聖，\n菩提邦印度朝聖的宗旨是：\n「用心做好每一團 利益所有朝聖者」\n所以，\n我們一台車45人座只收20位，\n我們一團20位法友，\n由領隊導遊導遊助理三人服務，\n為了讓所有參團的法友能夠有收穫，\n我們每個月都會舉辦兩場說明會，\n一場是「如何擁有一次殊勝難得的朝聖因緣」，\n另一場則是「聖地與經典」，\n希望透過前行的準備，讓每位法友都能法喜充滿。\n此外，我們為了提升領隊跟導遊的素質，創辦了菩提邦朝聖學院，三年來，菩提邦印度團隊們開始每天供佛、繞塔、經行、禪修，\n每天在大塔前排燈點燈祈福，\n並且學習了華嚴經法華經楞嚴經，\n以及佛陀的108則水平聖蹟，\n他們已經不只是導遊，更是聖地的守護者，\n我們期盼帶著大家一起回到印度，\n一起更美好的自己相遇'),
-    ImagemapSendMessage(
-        base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1688044198/india',
-        alt_text='索取出團資訊',
-        base_size=BaseSize(height=1707, width=1040),
-        actions=[
-            MessageImagemapAction(
-                text='我要報名免費線上講座',
-                area=ImagemapArea(
-                    x=218, y=288, width=603, height=98
-                )
-            ),
-            MessageImagemapAction(
-                text='追尋釋尊足跡～經典印度朝聖13日',
-                area=ImagemapArea(
-                    x=64, y=562, width=437, height=502
-                )
-            ),
-            MessageImagemapAction(
-                text='經典印度朝聖15日',
-                area=ImagemapArea(
-                    x=540, y=564, width=429, height=501
-                )
-            ),
-            MessageImagemapAction(
-                text='印度佛陀八大聖地寺廟寺廟巡禮團19日',
-                area=ImagemapArea(
-                    x=67, y=1121, width=431, height=500
-                )
-            ),
-            MessageImagemapAction(
-                text='自行組團',
-                area=ImagemapArea(
-                    x=538, y=1118, width=446, height=508
-                )
-            )
-        ]
-    )
-    ]
-    line_bot_api.reply_message(event.reply_token, message_list)
+# @handler.add(FollowEvent)
+# def handle_follow(event):
+#     message_list = [
+#     TextSendMessage(text='菩提邦創辦人有15年的印度朝聖經驗，\n服務超過2000海內外法友前往印度朝聖，\n菩提邦印度朝聖的宗旨是：\n「用心做好每一團 利益所有朝聖者」\n所以，\n我們一台車45人座只收20位，\n我們一團20位法友，\n由領隊導遊導遊助理三人服務，\n為了讓所有參團的法友能夠有收穫，\n我們每個月都會舉辦兩場說明會，\n一場是「如何擁有一次殊勝難得的朝聖因緣」，\n另一場則是「聖地與經典」，\n希望透過前行的準備，讓每位法友都能法喜充滿。\n此外，我們為了提升領隊跟導遊的素質，創辦了菩提邦朝聖學院，三年來，菩提邦印度團隊們開始每天供佛、繞塔、經行、禪修，\n每天在大塔前排燈點燈祈福，\n並且學習了華嚴經法華經楞嚴經，\n以及佛陀的108則水平聖蹟，\n他們已經不只是導遊，更是聖地的守護者，\n我們期盼帶著大家一起回到印度，\n一起更美好的自己相遇'),
+#     ImagemapSendMessage(
+#         base_url='https://res.cloudinary.com/dljndh8rq/image/upload/v1688044198/india',
+#         alt_text='索取出團資訊',
+#         base_size=BaseSize(height=1707, width=1040),
+#         actions=[
+#             MessageImagemapAction(
+#                 text='我要報名免費線上講座',
+#                 area=ImagemapArea(
+#                     x=218, y=288, width=603, height=98
+#                 )
+#             ),
+#             MessageImagemapAction(
+#                 text='追尋釋尊足跡～經典印度朝聖13日',
+#                 area=ImagemapArea(
+#                     x=64, y=562, width=437, height=502
+#                 )
+#             ),
+#             MessageImagemapAction(
+#                 text='經典印度朝聖15日',
+#                 area=ImagemapArea(
+#                     x=540, y=564, width=429, height=501
+#                 )
+#             ),
+#             MessageImagemapAction(
+#                 text='印度佛陀八大聖地寺廟寺廟巡禮團19日',
+#                 area=ImagemapArea(
+#                     x=67, y=1121, width=431, height=500
+#                 )
+#             ),
+#             MessageImagemapAction(
+#                 text='自行組團',
+#                 area=ImagemapArea(
+#                     x=538, y=1118, width=446, height=508
+#                 )
+#             )
+#         ]
+#     )
+#     ]
+#     line_bot_api.reply_message(event.reply_token, message_list)
